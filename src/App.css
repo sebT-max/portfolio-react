@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,97 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Bangers|Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+
+:root {
+  --white-color: #ffffff;
+  --light-grey-color: #EAE8E8;
+  --light-green-color: #1ecc78;
+  --green-color: #0cb765;
+  --red-color: #EB1D27;
+  --blue-color: #4f78a4;
+  --dark-red-color: #d31017;
+  --dark-grey-color: #363636;
+  --black-color: #333030;
+  --deep-black-color: #000000;
 }
+
+* {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+html {
+  background-color: #232225;
+opacity: 1;
+background-image:  linear-gradient(30deg, #060606 12%, transparent 12.5%, transparent 87%, #060606 87.5%, #060606), linear-gradient(150deg, #060606 12%, transparent 12.5%, transparent 87%, #060606 87.5%, #060606), linear-gradient(30deg, #060606 12%, transparent 12.5%, transparent 87%, #060606 87.5%, #060606), linear-gradient(150deg, #060606 12%, transparent 12.5%, transparent 87%, #060606 87.5%, #060606), linear-gradient(60deg, #06060677 25%, transparent 25.5%, transparent 75%, #06060677 75%, #06060677), linear-gradient(60deg, #06060677 25%, transparent 25.5%, transparent 75%, #06060677 75%, #06060677);
+background-size: 8px 14px;
+background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
+}
+
+h1 {
+  color:white;
+}
+
+.welcomePage {
+  background-color: var(--red-color);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  padding: 20px 0;
+  padding: 20px 0;
+  flex: 0 1 80%;
+}
+
+.footer-container p {
+  color: var(--white-color);
+  line-height: 19px;
+  margin: 10px 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.Home {
+  display:flex;
+  margin-top:120px;
+  justify-content:space-around;
+  background-color: #060606;
+
+}
+.btn-welcome {
+  border: 2px solid var(--white-color);
+  color: var(--white-color);
+  padding: 12px 25px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-weight: normal;
+  font-size: 19px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 150px;
+}
+
+.btn-welcome:hover {
+  border: 2px solid var(--white-color);
+  color: var(--red-color);
+  background-color: var(--white-color);
+  text-decoration: none;
+}
+
+
+
+

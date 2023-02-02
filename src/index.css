@@ -5,9 +5,104 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color:white
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: refrigerator-deluxe, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  font-style: normal;
+  font-weight: 300;
+}
+.about{
+  padding:20px;
+}
+.after-effect:after {
+  position: absolute;
+  top: 50%;
+  height: 0.125rem;
+  --tw-translate-y: -50%;
+  border-radius: 0.375rem;
+  background-image: linear-gradient(to right,var(--tw-gradient-stops));
+  --tw-content: "";
+  content: var(--tw-content);
+}
+.me {
+  text-align: center;
+  margin-top:20px;
+  border-radius:10px;
+  width: 200px;
+}
+
+.selfie { 
+  background-color: #0f0e0e;
+  opacity: 0.9;
+  /* background-image:  linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77); */
+  background-size: 8px 14px;
+  background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
+width:280px;
+border-radius:20px;
+}
+
+.profile {
+  margin:20px;
+}
+
+.eduExp{
+  display:flex;
+}
+
+.jobTitle {
+
+  border:1px solid white;
+  width:200px;
+  margin:0 auto;
+  color:white;
+
+}
+.navbar {
+  background-color: #0f0e0e;
+  opacity: 0.9;
+  border-radius: 20px;
+  margin:50px;
+}
+
+.nav-link{
+  background: rgb(36, 35, 35);
+  border-radius: 10px;
+  margin:20px;
+  padding:20px;
+  color:grey;
+  height:100px;
+  width:80px;
+}
+.nav-link:hover{
+  background: linear-gradient(#ed1f1f,#271f6c);;
+  border-radius: 10px;
+  margin:20px;
+  padding:20px;
+  color:white;
+  /* background-color: linear-gradient(#e66465, #9198e5); */
+}
+
+.downloadCV{
+  background: linear-gradient(#ed1f1f,#271f6c);
+  border-radius: 10px;
+  font-size: 24px;;
+  margin:20px;
+  padding:20px;
+  color:white;
+  text-align:center;
+}
+
+
+.profile-data{
+  color:white;
+  width:180px;
+  border-radius:10px;
+  padding:20px;
+  margin:0 auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color: rgb(19, 16, 16);
 }
