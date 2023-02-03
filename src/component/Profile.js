@@ -19,37 +19,37 @@ const Profile = () => {
                     <h2 className="jobTitle">FullStack Developer</h2>
                 <div className="profile-data" >            
                    <div className='flex'>
-                        <span style ={{marginRight:15,color:"lightblue",fontSize:"2.5em"}}>
+                        <span style ={{marginRight:15,color:"lightblue",fontSize:"2.2em"}}>
                         <BsFillPhoneFill /> 
                         </span> 
                         
                         <div>
                         <h6 style={{color:'grey'}}>Phone</h6>
-                        <p>+32468129890</p>
+                        <p style={{width:150,fontSize:14}}>+32468129890</p>
                         </div>  
                         
                     </div>
                     
 
                     <div className='flex'>
-                        <span style ={{marginRight:15,color: "lightcoral",fontSize:"2.5em"}}>
+                        <span style ={{marginRight:15,color: "lightcoral",fontSize:"2.2em"}}>
                         <BiCurrentLocation /> 
                         </span> 
                         
                         <div>
                         <h6 style={{color:'grey'}}>Location</h6>
-                        <p>Braine-l'Alleud</p>
+                        <p style={{width:150,fontSize:14}}>Braine-l'Alleud</p>
                         </div>  
                         
                     </div>
                     <div className='flex'>
-                        <span style ={{marginRight:15,color: "lightgray",fontSize:"2.5em"}}>
+                        <span style ={{marginRight:15,color: "lightgray",fontSize:"2.2em"}}>
                         <MdEmail /> 
                         </span> 
                         
                         <div>
-                        <h6 style={{color:'grey'}}>Phone</h6>
-                        <p>sebternest@hotmail.com</p>
+                        <h6 style={{color:'grey'}}>Email</h6>
+                        <p style={{width:150,fontSize:14}}>sebternest@hotmail.com</p>
                         </div>  
                         
                     </div>                          

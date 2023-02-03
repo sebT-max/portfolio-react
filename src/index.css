@@ -53,7 +53,7 @@ border-radius:20px;
 }
 .flex{
   display:flex;
-  justify-content:space-around;
+  justify-content:center;
 }
 
 .jobTitle {
@@ -102,7 +102,7 @@ border-radius:20px;
 
 .profile-data{
   color:white;
-  width:180px;
+  width:240px;
   border-radius:10px;
   padding:20px;
   margin:0 auto;

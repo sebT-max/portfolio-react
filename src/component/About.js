@@ -1,5 +1,15 @@
 import React,{useRef, useEffect, Fragment,useState} from 'react'
 import {Link} from 'react-router-dom';
+import technos from '../technos.png';
+import {AiOutlineCode} from "react-icons/ai";
+import {BsGithub} from "react-icons/bs"; 
+import {DiRuby} from "react-icons/di"; 
+import {DiResponsive} from "react-icons/di";
+import {ImHtmlFive} from "react-icons/im";
+import {FaAws} from "react-icons/fa";
+import {SiJquery} from "react-icons/si"; 
+import {SiCss3} from "react-icons/si";
+import {DiIntellij} from "react-icons/di";
 
 
 
@@ -7,17 +17,27 @@ const About = () => {
 
   return (
     <>  
-    <div className="row">
+    <div className="container row" style={{color:'#FFF'}}>
+      <div className="selfie about sm-12 md-6 lg-4" >
+        <h1 style={{color:'white', padding:20,fontWeight:400}}> About me</h1>
+        <p style={{color:'grey', padding:20, fontSize:24}}>
+        I'm a passionate web developper who sees coding as an enjoyable activity, full of possibilities, open to creativity and above all as a tool for a more efficient world. Multilingual, I've always loved learning new languages. Music is also a language that I love and play.
+        </p>
+        <p style={{color:'white', padding:20,fontWeight:400}}><span>Skills:</span> <br/>       
+          <AiOutlineCode/> Programming ·
+          <BsGithub/> GitHub · 
+          <DiRuby/>Programming Languages - Ruby · 
+          <DiResponsive/>Responsive Web Design · 
+          <ImHtmlFive/>HTML 
+          <FaAws/>Amazon Web Services (AWS) ·
+          <SiJquery/> jQuery · 
+          <SiCss3/> scss 
+          <DiIntellij/>IntelliJ IDEA
+        </p>
 
-    <div className="selfie about sm-12 md-8 lg-6" >
-      <h1 style={{color:'white', padding:20,fontWeight:400}}> About me</h1>
-      <p style={{color:'red', padding:20}}>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-            My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
-      </p>
-      <p style={{color:'white', padding:20,fontWeight:400}}><span>Skills:</span> <br/>
-                Data Modeling · Programming · GitHub · Programming Languages · Responsive Web Design · Object-Oriented Programming (OOP) · HTML · Back-End Web Development · Web Development · Amazon Web Services (AWS) · Front-End Development · Ruby · Full-Stack Development · jQuery · scss · Haml · IntelliJ IDEA · Ruby on Rails</p>
-        
+      
+      <h3>Technologies</h3>
+        <img style={{marginTop:20,borderRadius:10,width:250 }} src= {technos} alt="selfie"/>
     </div>
     </div>
     

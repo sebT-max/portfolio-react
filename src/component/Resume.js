@@ -1,6 +1,7 @@
 import { getSuggestedQuery } from '@testing-library/react';
 import React,{Fragment} from 'react';
 import Wagon from '../certif-wagon.png';
+import Wagon2 from '../wag.png';
 import selftitle from '../sebTitle.png';
 import { FaBeer } from "react-icons/fa";
 
@@ -8,28 +9,31 @@ import { FaBeer } from "react-icons/fa";
 const Resume = () => {
 
     return (
-        <>     
-            <div className="selfie eduExp sm-12 md-8 lg-6" > 
-                <div className="education">     
-                    <img style={{marginTop:20,borderRadius:10,width: 150}} src= {Wagon} alt="selfie"/>
-                    <p>Self-taught for Javascript and react></p>
-                </div>  
+        <>   
+        <div style={{color:'#FFF'}} className="container">
+  
+            <div className="eduExp row" > 
+                <div className="col lg-4">  
+                    <h1>Education</h1> 
+                    <h3 style={{color:'#FFF'}}>Le Wagon bootcamp</h3>  
+                        <img style={{marginTop:20,borderRadius:10,width: 150}} src= {Wagon} alt="selfie"/>
+                        <img style={{marginTop:20,borderRadius:10,width: 150}} src= {Wagon2} alt="selfie"/>
+                        <p>Self-taught for Javascript and react></p>
+                    </div>  
 
-                <div className="experience">
-                <h1>Experience</h1> 
-                <div className="profile-data" >             
-                    <h3 style={{color:'#FFF'}}>M&J consulting</h3>
-                </div>
-                
+                <div className="col lg-4">
+                    <h1>Experience</h1> 
+                    <div>             
+                        <h3 style={{color:'#FFF'}}>M&J consulting</h3>
+                        <p>Implementation of a real estate management interface for admin team</p>
+                        <p>and a user/owner area</p> 
+                        <p>www.immopreneur.be</p>
 
-                        
-                    <h3 style={{color:'#FFF'}}>Location</h3>
-                        <p>Rue Notre-Dame,21</p> 
-                        <p>1420 Braine-l'Alleud</p>
-                    <h3 style={{color:'#FFF'}}>Email</h3>
-                        <p>sebternest@hotmail.com</p>                       
+                    </div>
+
                 </div>
             </div> 
+        </div>
         </>   
     )
 }
