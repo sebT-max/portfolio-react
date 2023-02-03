@@ -1,4 +1,4 @@
-import React,{useRef, useEffect, Fragment,useState} from 'react'
+import React,{Fragment,useState} from 'react'
 import {Link} from 'react-router-dom';
 import technos from '../technos.png';
 import {AiOutlineCode} from "react-icons/ai";
@@ -10,6 +10,9 @@ import {FaAws} from "react-icons/fa";
 import {SiJquery} from "react-icons/si"; 
 import {SiCss3} from "react-icons/si";
 import {DiIntellij} from "react-icons/di";
+import react from '../logo.svg';
+import postgres from '../postgresql.svg';
+import redux from '../redux.svg';
 
 
 
@@ -34,14 +37,18 @@ const About = () => {
           <SiCss3/> scss 
           <DiIntellij/>IntelliJ IDEA
         </p>
+        </div>
 
       
       <h3>Technologies</h3>
-        <img style={{marginTop:20,borderRadius:10,width:250 }} src= {technos} alt="selfie"/>
-    </div>
-    </div>
-    
-        
+      
+        <div className="techno">
+            <img src={react}/>
+            <img src={postgres}/>
+            <img src={redux}/>
+        </div>
+     </div>   
+   
     </>   
 )
 }
