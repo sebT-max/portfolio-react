@@ -126,6 +126,16 @@ footer {
   text-decoration: none;
 }
 
+.techno {
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.techno img {
+  margin:5px;
+}
+
 
 
 

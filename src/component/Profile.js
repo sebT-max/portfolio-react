@@ -9,7 +9,20 @@ import { MdEmail } from "react-icons/md";
 
 
 const Profile = () => {
-
+    const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('cv.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'cv.pdf';
+                alink.click();
+            })
+        })
+    }
     return (
         
         <>     
@@ -54,7 +67,7 @@ const Profile = () => {
                         
                     </div>                          
                 </div>
-                <div className="downloadCV">Download CV</div>
+                <div className="downloadCV" onClick={onButtonClick}>Download CV</div>
             </div> 
         </>   
     )

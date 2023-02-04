@@ -1,6 +1,6 @@
 import React,{Fragment} from 'react';
 import jamming from '../jamming.jpg';
-import immopreneur from '../immopreneur.jpg';
+import immopreneur from '../immopreneur.webp';
 import quizmarvel from '../quiz-marvel.png';
 import logoepi from '../logoepi.png';
 
@@ -37,7 +37,7 @@ const Projects = () => {
                             <div className="img">
                                 <a className="test-popup-link" href="https://www.immopreneur.be">
                                     <div style={{height:150}}>
-                                        <img src={immopreneur} style={{height: 100,width:"auto"}} alt="Brand-4"/>
+                                        <img src={immopreneur} style={{height: 150,width:"auto"}} alt="Brand-4"/>
                                     </div>
                                 </a>
                             </div>
@@ -51,7 +51,7 @@ const Projects = () => {
                         
                             <div className="img">
                                 <a className="test-popup-link" href="https://saveplaylist.netlify.app/">
-                                    <img src={jamming} style={{height: 150,width:"auto"}} alt="Brand-4"/>
+                                    <img src={jamming} style={{borderRadius:30,height: 150,width:"auto"}} alt="Brand-4"/>
                                 </a>
                             </div>
                             <div className="title py-4">
@@ -64,7 +64,7 @@ const Projects = () => {
                         
                             <div className="img">
                                 <a className="test-popup-link" href="https://marvel-quizz-6144d.web.app/">
-                                    <img src={quizmarvel} style={{height: 150,width:"auto"}} alt="Brand-4"/>
+                                    <img src={quizmarvel} style={{borderRadius:30,height: 150,width:"auto"}} alt="Brand-4"/>
                                 </a>
                             </div>
                             <div className="title py-4">

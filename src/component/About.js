@@ -13,6 +13,8 @@ import {DiIntellij} from "react-icons/di";
 import react from '../logo.svg';
 import postgres from '../postgresql.svg';
 import redux from '../redux.svg';
+import rails from '../rails.png';
+import htmlco from '../html&co.png';
 
 
 
@@ -46,6 +48,8 @@ const About = () => {
             <img src={react}/>
             <img src={postgres}/>
             <img src={redux}/>
+            <img style={{width:270,marginTop:5,marginBottom:50}} src={rails}/>
+            <img style={{width:270,marginTop:5,marginBottom:50}} src={htmlco}/>
         </div>
      </div>   
    
