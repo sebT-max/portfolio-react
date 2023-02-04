@@ -27,10 +27,10 @@ code {
   --tw-content: "";
   content: var(--tw-content);
 }
-.me {
+.me{
   text-align: center;
-  margin-top:20px;
-  border-radius:10px;
+  margin:0 auto;
+  border-radius:100px;
   width: 200px;
 }
 
@@ -40,14 +40,18 @@ code {
   /* background-image:  linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77); */
   background-size: 8px 14px;
   background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
-width:280px;
-border-radius:20px;
+  width:280px;
+  border-radius:20px;
+  margin-top:20px;
 }
 
 .profile {
-  margin:20px;
+  margin:40px;
 }
+.profile{
+  text-align: center;
 
+}
 .eduExp{
   display:flex;
 }
@@ -58,10 +62,13 @@ border-radius:20px;
 
 .jobTitle {
 
-  border:1px solid white;
+  
   width:200px;
+  padding:20px;
   margin:0 auto;
-  color:white;
+  color:whitesmoke;
+  border-radius:20px;
+  background-color:rgba(20, 19, 19, 0.839);
 
 }
 .navbar {
@@ -110,5 +117,8 @@ border-radius:20px;
   margin-bottom:20px;
   background-color: rgb(26, 24, 24);
   opacity:0.9;
+  text-align: left;
 }
+
+
 

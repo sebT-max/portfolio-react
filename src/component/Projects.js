@@ -19,7 +19,7 @@ const Projects = () => {
         
 
                 <div className="row grid">
-                    <div className="col-lg-3 col-md-5 col-sm-10 element-item popular proyecto our-project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
+                    <div className="col-lg-3 col-md-4 col-sm-10 element-item popular proyecto our-project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
                         
                             <div className="img">
                                 <a className="test-popup-link" href="https://www.lesepicurieuxdebacchus.com">
@@ -42,8 +42,8 @@ const Projects = () => {
                                 </a>
                             </div>
                             <div className="title py-4">
-                                <h4 className="project_title">Rental Management</h4>
-                                <span className="text-secondary">Last internship project </span>
+                                <h4 className="project_title">Immopreneur</h4>
+                                <span className="text-secondary">Rental management service with </span>
                             </div>
                        
                     </div>
@@ -60,11 +60,11 @@ const Projects = () => {
                             </div>
                         
                     </div>
-                    <div className="col-lg-3 col-md-5 col-sm-10 element-item popular proyecto our-project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
+                    <div className="col-lg-3 col-md-4 col-sm-10 element-item popular proyecto our-project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
                         
                             <div className="img">
                                 <a className="test-popup-link" href="https://marvel-quizz-6144d.web.app/">
-                                    <img src={quizmarvel} style={{borderRadius:30,height: 150,width:"auto"}} alt="Brand-4"/>
+                                    <img src={quizmarvel} style={{borderRadius:400,height: 150,width:"auto"}} alt="Brand-4"/>
                                 </a>
                             </div>
                             <div className="title py-4">
