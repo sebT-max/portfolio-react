@@ -22,29 +22,31 @@ const About = () => {
 
   return (
     <>  
-    <div className="container row" style={{color:'#FFF'}}>
-      <div className="selfie about sm-12 md-6 lg-4" >
-        <h1 style={{color:'white', padding:20,fontWeight:400}}> About me</h1>
+    <div className="container" style={{color:'#FFF'}}>
+      <div className=" about sm-12 md-6 lg-4" >
+        <h1 style={{color:'white',fontWeight:400}}> About me</h1>
         <hr/>
-      <p style={{color:'grey', padding:20, fontSize:24}}>
-        I'm a passionate web developper who sees coding as an enjoyable activity, full of possibilities, open to creativity and above all as a tool for a more efficient world. Multilingual, I've always loved learning new languages. Music is also a language that I love and play.
-        </p>
-        <p style={{color:'white', padding:20,fontWeight:400}}><span>Skills:</span> <br/>       
-          <AiOutlineCode/> Programming ·
-          <BsGithub/> GitHub · 
-          <DiRuby/>Programming Languages - Ruby · 
-          <DiResponsive/>Responsive Web Design · 
-          <ImHtmlFive/>HTML 
-          <FaAws/>Amazon Web Services (AWS) ·
-          <SiJquery/> jQuery · 
-          <SiCss3/> scss 
-          <DiIntellij/>IntelliJ IDEA
-        </p>
+        <p style={{color:'grey', fontSize:24}}>
+          I'm a passionate web developper who sees coding as an enjoyable activity, full of possibilities, open to creativity and above all as a tool for a more efficient world. Multilingual, I've always loved learning new languages. Music is also a language that I love and play.
+          </p>
+          <p style={{color:'white', fontSize:24,padding:20,fontWeight:400}}><span>Skills:</span> <br/>       
+            <AiOutlineCode/> Programming ·
+            <BsGithub/> GitHub · 
+            <DiRuby/>Programming Languages - Ruby · 
+            <DiResponsive/>Responsive Web Design · 
+            <ImHtmlFive/>HTML 
+            
+          </p>
+          <p style={{color:'white', fontSize:24,fontWeight:400}}> <br/>       
+            
+            <FaAws/>Amazon Web Services (AWS) -
+            <SiJquery/> -jQuery- 
+            <SiCss3/> -scss- 
+            <DiIntellij/>-IntelliJ IDEA-
+          </p>
         </div>
-
       <br/>
-      <div className='selfie'>
-        
+      <div className='selfie'>  
         <h2>Technologies</h2>
         <hr/>
         <div className="techno">

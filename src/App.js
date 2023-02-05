@@ -7,28 +7,37 @@ import Resume from './component/Resume'
 import Projects from './component/Projects'
 import Navbar from './component/Navbar'
 import Footer from './component/Footer'
+import "bootstrap/dist/css/bootstrap.min.css";
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import "./index.css";
 
 function App() {
   return (
-    <>
-    <div className="Home">
-    <Profile/>
-     
-    <Router>
-      <div className="container">
-        <Navbar/>
-        <Routes>
-          <Route path="/" element={<About/>}/>
-          <Route path="/resume" element={<Resume/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-        </Routes>
-      </div>  
-    </Router>
+    <> 
+    <Router>  
+      <div className="Home">
+      <Navbar/>
+      </div>
 
-</div>
+      <div className= "Home responsive">
+      
+        <div className="Home profile">
+          <Profile/>
+        </div>
+
+        <div className="Home 1">
+          <Routes>
+                <Route path="/" element={<About/>}/>
+                <Route path="/resume" element={<Resume/>}/>
+                <Route path="/projects" element={<Projects/>}/>
+              
+          </Routes>
+        </div>
+      </div>
+    </Router>
+          
  <Footer />
+    
     </>  
   );
 }

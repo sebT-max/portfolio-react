@@ -3,6 +3,7 @@ import React,{Fragment} from 'react';
 import Wagon from '../certif-wagon.png';
 import Wagon2 from '../wag.png';
 import selftitle from '../sebTitle.png';
+import mindeed from '../mindeed.png';
 
 
 
@@ -26,15 +27,15 @@ const Resume = () => {
                             <br/>
                             <p>My GitHub profile: https://github.com/sebT-max</p>
                         <p>Self-taught for Javascript and react></p>
-                    </div>  
+                </div>  
+                <hr/>
 
                 <div className="col lg-4">
                     <h1>Experience</h1> 
-                    <div>             
-                        <h3 style={{color:'#FFF'}}>M&J consulting</h3>
-                        <p>Implementation of a real estate management interface for admin team</p>
-                        <p>and a user/owner area</p> 
-                        <p>www.immopreneur.be</p>
+                    <h3 style={{color:'#FFF'}}>Mindeed(ex-M&J consulting)</h3> 
+                    <div> 
+                        <img style={{marginTop:20,borderRadius:10,width: 200}} src= {mindeed} alt="mindeed"/>            
+                        <p>Implementation of a real estate management interface for admin team and a user/owner area in www.immopreneur.be</p>
 
                     </div>
 

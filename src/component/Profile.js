@@ -27,9 +27,9 @@ const Profile = () => {
         
         <>     
             <div className="selfie profile" >          
-                <img style={{margin:0}} className="me" src= {imgseb} alt="selfie"/>
+                <img style={{position:"relative",top:-100,margin:0}} className="me" src= {imgseb} alt="selfie"/>
                 <h1 style={{margin:20,color:'#FFF'}}>Sébastien Ternest</h1> 
-                <h2 className="jobTitle">FullStack Developer</h2>
+                <h2 className="jobTitle">Junior FullStack Developer</h2>
                 
                 <div className="profile-data" >            
                    <div className='flex'>

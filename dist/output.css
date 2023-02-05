@@ -8,17 +8,17 @@ body {
   color:white
 }
 
-
-
 code {
   font-family: refrigerator-deluxe, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
   font-style: normal;
   font-weight: 300;
 }
+
 .about{
   padding:20px;
 }
+
 .after-effect:after {
   position: absolute;
   top: 50%;
@@ -29,6 +29,7 @@ code {
   --tw-content: "";
   content: var(--tw-content);
 }
+
 .me{
   text-align: center;
   margin:0 auto;
@@ -36,34 +37,35 @@ code {
   width: 200px;
 }
 
-.selfie { 
+.selfie {
   background-color: #0f0e0e;
   opacity: 0.6;
   /* background-image:  linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77); */
   background-size: 8px 14px;
   background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
- 
   border-radius:20px;
   margin-top:20px;
 }
 
 .profile {
   margin:40px;
-}
-.profile{
   text-align: center;
   margin-top:60px;
 }
+
 .project:hover {
   border-left:#0f0e0e;
   border-right:#ed1f1f;
 }
+
 .project h4 {
   color:white;
 }
+
 .eduExp{
   display:flex;
 }
+
 .flex{
   display:flex;
   justify-content:center;
@@ -76,12 +78,11 @@ code {
   border-radius:20px;
   background-color:rgba(20, 19, 19, 0.839);
   text-align:center;
-
 }
+
 .jobTitle h2 {
   margin:0 auto;
 }
-
 
 .nav-link{
   background: rgb(36, 35, 35);
@@ -92,8 +93,9 @@ code {
   height:100px;
   width:80px;
 }
+
 .nav-link:hover{
-  background: linear-gradient(#ed1f1f,#271f6c);;
+  background: linear-gradient(#ed1f1f,#271f6c);
   border-radius: 10px;
   margin:20px;
   padding:20px;
@@ -104,13 +106,12 @@ code {
 .downloadCV{
   background: linear-gradient(#ed1f1f,#271f6c);
   border-radius: 10px;
-  font-size: 24px;;
+  font-size: 24px;
   margin:20px;
   padding:20px;
   color:white;
   text-align:center;
 }
-
 
 .profile-data{
   color:white;
@@ -131,11 +132,13 @@ code {
     grid-template-columns: 1fr 1fr;
   }
 }
+
 @media only screen and (max-width:425px) {
   .responsive {
     display:grid;
     grid-template-columns: 1fr;
   }
 }
+
 .responsive{
 }
