@@ -15,17 +15,19 @@ function App() {
   return (
     <> 
     <Router>  
-      <div className="Home">
-      <Navbar/>
-      </div>
-
+    
       <div className= "Home responsive">
       
-        <div className="Home profile">
+        <div className="profile">
           <Profile/>
         </div>
 
-        <div className="Home 1">
+        <div className="linkto container margin-auto">
+
+          <div className="navtog">
+            <Navbar/>
+          </div>
+       
           <Routes>
                 <Route path="/" element={<About/>}/>
                 <Route path="/resume" element={<Resume/>}/>

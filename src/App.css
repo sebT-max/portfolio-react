@@ -130,6 +130,9 @@ footer {
  text-align: left;
  margin:20px;
 }
+.margin-auto{
+  margin:0 auto;
+}
 
 .techno {
   display:flex;

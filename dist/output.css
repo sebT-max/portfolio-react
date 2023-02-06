@@ -131,6 +131,29 @@ code {
     display:grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .navbar{
+    display:flex;
+  }
+
+  .nav-link{
+    background: rgb(36, 35, 35);
+    border-radius: 10px;
+    margin:20px;
+    padding:20px;
+    color:grey;
+    height:100px;
+    width:50px;
+  }
+
+  .nav-link:hover{
+    background: linear-gradient(#ed1f1f,#271f6c);
+    border-radius: 10px;
+    margin:20px;
+    padding:20px;
+    color:white;
+    /* background-color: linear-gradient(#e66465, #9198e5); */
+  }
 }
 
 @media only screen and (max-width:425px) {
@@ -138,7 +161,4 @@ code {
     display:grid;
     grid-template-columns: 1fr;
   }
-}
-
-.responsive{
 }

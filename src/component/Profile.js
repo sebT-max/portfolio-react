@@ -26,11 +26,10 @@ const Profile = () => {
     return (
         
         <>     
-            <div className="selfie profile" >          
-                <img style={{position:"relative",top:-100,margin:0}} className="me" src= {imgseb} alt="selfie"/>
-                <h1 style={{margin:20,color:'#FFF'}}>Sébastien Ternest</h1> 
-                <h2 className="jobTitle">Junior FullStack Developer</h2>
-                
+            <div className="selfie" >          
+                <img style={{position:"relative",top:-60,margin:0}} className="me" src= {imgseb} alt="selfie"/>
+                <h1 style={{color:'#FFF'}}>Sébastien Ternest</h1> 
+                <h2 style={{color:"whitesmoke",textAlign:"center"}}>Junior FullStack Developer</h2>
                 <div className="profile-data" >            
                    <div className='flex'>
                         <span style ={{marginRight:15,color:"lightblue",fontSize:"2.2em"}}>
@@ -68,7 +67,7 @@ const Profile = () => {
                         
                     </div>                          
                 </div>
-                <div className="downloadCV" onClick={onButtonClick}>Download CV</div>
+                <div style={{margin:10}} className="downloadCV" onClick={onButtonClick}>Download CV</div>
             </div> 
         </>   
     )

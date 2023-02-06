@@ -9,17 +9,12 @@ const Projects = () => {
 
     return (
         <>     
-        <section className="row">
-            <div className="about sm-12 md-8 lg-6">
-                <div className="project-title pb-5">
-                    <h1 className="text-center title-h1">RECENTLY DONE PROJECTS</h1>
-
-                </div>
-
-        
-
-                <div className="row grid">
-                    <div className="col-lg-3 col-md-4 col-sm-10  project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
+        <div className="row" style={{color:'#FFF'}}>
+          <div className=" about sm-12 md-6 lg-4" >
+            <h1 style={{color:'white',fontWeight:400}}> My last projects</h1>
+            <hr/>
+                <div className="projects">
+                    <div className="project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
                         
                             <div className="img">
                                 <a className="test-popup-link" href="https://www.lesepicurieuxdebacchus.com">
@@ -32,7 +27,7 @@ const Projects = () => {
                             </div>
                         
                     </div>
-                    <div className="col-lg-3 col-md-5 col-sm-10 project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
+                    <div className="project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
                         
                             <div className="img">
                                 <a className="test-popup-link" href="https://www.immopreneur.be">
@@ -47,7 +42,7 @@ const Projects = () => {
                             </div>
                        
                     </div>
-                    <div className="project col-lg-3 col-md-5 col-sm-10 " style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
+                    <div className="project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
                         
                             <div className="img">
                                 <a className="test-popup-link" href="https://saveplaylist.netlify.app/">
@@ -60,7 +55,7 @@ const Projects = () => {
                             </div>
                         
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-10 project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
+                    <div className="project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
                         
                             <div className="img">
                                 <a className="test-popup-link" href="https://marvel-quizz-6144d.web.app/">
@@ -75,7 +70,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
         </>   
     )

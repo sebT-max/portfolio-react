@@ -1,7 +1,6 @@
 import React,{Fragment,useState} from 'react'
 import {Link} from 'react-router-dom';
 import technos from '../technos.png';
-import {AiOutlineCode} from "react-icons/ai";
 import {BsGithub} from "react-icons/bs"; 
 import {DiRuby} from "react-icons/di"; 
 import {DiResponsive} from "react-icons/di";
@@ -15,6 +14,10 @@ import postgres from '../postgresql.svg';
 import redux from '../react-redux.png';
 import rails from '../rails.png';
 import htmlco from '../html&co.png';
+import gitlab from '../gitlab.png';
+import gh from '../gh.png';
+import heroku from '../heroku.png';
+import aws from '../aws.png';
 
 
 
@@ -22,27 +25,12 @@ const About = () => {
 
   return (
     <>  
-    <div className="container" style={{color:'#FFF'}}>
-      <div className=" about sm-12 md-6 lg-4" >
+    <div className="row container" style={{color:'#FFF'}}>
+      <div className="margin-auto about sm-12 md-6 lg-4" >
         <h1 style={{color:'white',fontWeight:400}}> About me</h1>
         <hr/>
         <p style={{color:'grey', fontSize:24}}>
           I'm a passionate web developper who sees coding as an enjoyable activity, full of possibilities, open to creativity and above all as a tool for a more efficient world. Multilingual, I've always loved learning new languages. Music is also a language that I love and play.
-          </p>
-          <p style={{color:'white', fontSize:24,padding:20,fontWeight:400}}><span>Skills:</span> <br/>       
-            <AiOutlineCode/> Programming ·
-            <BsGithub/> GitHub · 
-            <DiRuby/>Programming Languages - Ruby · 
-            <DiResponsive/>Responsive Web Design · 
-            <ImHtmlFive/>HTML 
-            
-          </p>
-          <p style={{color:'white', fontSize:24,fontWeight:400}}> <br/>       
-            
-            <FaAws/>Amazon Web Services (AWS) -
-            <SiJquery/> -jQuery- 
-            <SiCss3/> -scss- 
-            <DiIntellij/>-IntelliJ IDEA-
           </p>
         </div>
       <br/>
@@ -61,7 +49,32 @@ const About = () => {
               <img style={{width:220,height:120,margin:20}} src={redux}/>
               <img style={{width:200,height:150,marginBottom:20}} src={htmlco}/>
           </div>
+          <div className='Backend'>
+            <h3>Versioning</h3>
+              <img style={{width:200,height:150,marginBottom:20}} src={gh}/>
+              <img style={{width:200,height:150,marginBottom:20}} src={gitlab}/>
+          </div>
+          <div className='Backend'>
+            <h3>Deployment</h3>
+              <img style={{width:200,height:150,marginBottom:20}} src={heroku}/>
+              <img style={{width:200,height:150,marginBottom:20}} src={aws}/>
+              
+          </div>
         </div>
+        <div style={{color:'white', fontSize:24,padding:20,fontWeight:400}}><span>Skills:</span> <br/>       
+             
+            <BsGithub/> GitHub  
+            <DiRuby/> Ruby  
+            <DiResponsive/>Responsive Web Design  
+            <ImHtmlFive/>HTML 
+          </div>
+          <div style={{color:'white', fontSize:24,fontWeight:400}}> <br/>       
+            
+            <FaAws/>Amazon Web Services (AWS)
+            <SiJquery/>jQuery
+            <SiCss3/> scss
+            <DiIntellij/>IntelliJ IDEA
+          </div>
     </div>
    </div>
     </>   
