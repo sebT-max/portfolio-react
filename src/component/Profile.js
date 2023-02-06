@@ -26,7 +26,7 @@ const Profile = () => {
     return (
         
         <>     
-            <div className="selfie" >          
+            <div className="sidebar selfie" >          
                 <img style={{position:"relative",top:-60,margin:0}} className="me" src= {imgseb} alt="selfie"/>
                 <h1 style={{color:'#FFF'}}>Sébastien Ternest</h1> 
                 <h2 style={{color:"whitesmoke",textAlign:"center"}}>Junior FullStack Developer</h2>

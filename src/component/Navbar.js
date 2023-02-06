@@ -15,7 +15,7 @@ function Navbar() {
       <a className="navbar-brand text-info font-weight-bolder" href="/">
         <img src={sebTtitle} alt="Logo" width="200" height="60" className="vertical-align-middle" />
       </a>
-      <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
+      <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse} style={{background:"#FFF",color:"white"}}>
         <span className="navbar-toggler-icon"></span>
       </button>
 

@@ -20,18 +20,18 @@ import heroku from '../heroku.png';
 import aws from '../aws.png';
 import docker from '../docker.png';
 
-
-
-const About = () => {
+const Hobbies = () => {
 
   return (
     <>  
-    <div className="app row container" style={{color:'#FFF'}}>
+    <div className="Myhobbies" style={{color:'#FFF'}}>
       <div className="margin-auto about sm-12 md-6 lg-4" >
-        <h1 style={{color:'white',fontWeight:400}}> About me</h1>
+        <h1 style={{color:'white',fontWeight:400}}> Besides work</h1>
         <hr/>
         <p style={{color:'grey', fontSize:24}}>
-          I'm a passionate web developper who sees coding as an enjoyable activity, full of possibilities, open to creativity and above all as a tool for a more efficient world. Multilingual, I've always loved learning new languages. Music is also a language that I love and play.
+            Dedicated father of two young boys, I get always older and younger at the same time.
+            I'm interested in almost everything, especially music and technology.
+            Very open-minded, I used to live with many extremely different people and find the beauty of life in harmonizing relationships.      
           </p>
         </div>
         <br/>
@@ -53,39 +53,12 @@ const About = () => {
               <img style={{width:200,height:150,marginBottom:20}} src={htmlco}/>
           </div>
           <hr/>
-          <div className='Backend'>
-            <h3>Versioning</h3>
-              <img style={{width:210,height:140,marginBottom:20}} src={gh}/>
-              <img style={{width:200,height:150,marginBottom:20}} src={gitlab}/>
-          </div>
-          <hr/>
-          <div className='Backend'>
-            <h3>Cloud</h3>
-              <img style={{width:200,height:120,color:"white",marginBottom:20}} src={heroku}/>
-              <img style={{width:200,height:200,marginBottom:20}} src={aws}/>
-              <img style={{width:200,height:120,marginBottom:20}} src={docker}/>
-
-          </div>
         </div>
-        <div style={{color:'white', fontSize:24,padding:20,fontWeight:400}}><span>Skills:</span> <br/>       
-             
-            <BsGithub/> GitHub  
-            <DiRuby/> Ruby  
-            <DiResponsive/>Responsive Web Design  
-            <ImHtmlFive/>HTML 
-          </div>
-          <div style={{color:'white', fontSize:24,fontWeight:400}}> <br/>       
-            
-            <FaAws/>Amazon Web Services (AWS)
-            <SiJquery/>jQuery
-            <SiCss3/> scss
-            <DiIntellij/>IntelliJ IDEA
-          </div>
-    </div>
-   </div>
+      </div>
+      </div>
     </>   
 )
 }
 
 
-export default About;
+export default Hobbies;

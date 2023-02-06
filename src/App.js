@@ -6,12 +6,15 @@ import About from './component/About'
 import Resume from './component/Resume'
 import Projects from './component/Projects'
 import Navbar from './component/Navbar'
+import Hobbies from './component/Hobbies'
 import Footer from './component/Footer'
 import "bootstrap/dist/css/bootstrap.min.css";
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import "./index.css";
 
 function App() {
+  
+
   return (
     <> 
     <Router>  
@@ -20,6 +23,7 @@ function App() {
       
         <div className="profile">
           <Profile/>
+          <Hobbies/>
         </div>
 
         <div className="linkto container margin-auto">
@@ -32,7 +36,6 @@ function App() {
                 <Route path="/" element={<About/>}/>
                 <Route path="/resume" element={<Resume/>}/>
                 <Route path="/projects" element={<Projects/>}/>
-              
           </Routes>
         </div>
       </div>

@@ -11,7 +11,7 @@ const Resume = () => {
 
     return (
         <>   
-        <div className="about row" style={{color:'#FFF'}}>
+        <div className="row" style={{color:'#FFF'}}>
             <div className="education" >  
             <br/>
                 <h1>Education</h1> 
