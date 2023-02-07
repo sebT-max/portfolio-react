@@ -33,16 +33,16 @@ const About = () => {
               <Profile/>
         </div>
 
-        <div id="about" className="linkto row container" style={{color:'#FFF'}}>
+        <div id="about" className="linkto row" style={{textAlign:"center",color:'#FFF'}}>
           <div className="margin-auto about" >
             <h1 style={{color:'white',fontWeight:400}}> About me</h1>
             <hr/>
             <p style={{color:'grey', fontSize:24}}>
               I'm a passionate web developper who sees coding as an enjoyable activity, full of possibilities, open to creativity and above all as a tool for a more efficient world. Multilingual, I've always loved learning new languages. Music is also a language that I love and play.
-              </p>
+            </p>
           </div>
             <br/>
-          <div className='main-content selfie'>  
+          <div style={{textAlign:"center"}} className='main-content selfie'>  
             <h2>Technologies</h2>
             <hr/>
             <div className="techno">
@@ -56,21 +56,20 @@ const About = () => {
               
               <div className='Backend'>
                 <h3>Front-end</h3>
-                  <img style={{width:110,height:60,margin:20}} src={redux}/>
+                  <img style={{width:130,height:70,marginTop:20,marginBottom:20}} src={redux}/>
                   <img style={{width:100,height:75,marginBottom:20}} src={htmlco}/>
               </div>
               <hr/>
               <div className='Backend'>
                 <h3>Versioning</h3>
-                  <img style={{width:105,height:70,marginBottom:20}} src={gh}/>
-                  <img style={{width:100,height:75,marginBottom:20}} src={gitlab}/>
+                  <img style={{width:155,height:90,marginBottom:10}} src={gh}/>
+                  <img style={{width:135,height:90,marginBottom:20}} src={gitlab}/>
               </div>
               <hr/>
               <div className='Backend'>
                 <h3>Cloud</h3>
-                  <img style={{width:180,height:120,color:"white",marginBottom:20}} src={heroku}/>
-                  <img style={{width:120,height:120,marginBottom:20}} src={aws}/>
-                  <img style={{width:100,height:60,marginBottom:20}} src={docker}/>
+                  <img style={{width:100,height:100}} src={aws}/>
+                  <img style={{width:140,height:80,marginBottom:20}} src={docker}/>
 
               </div>
             </div>

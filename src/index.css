@@ -75,6 +75,7 @@ code {
   padding:20px;
 }
 
+
 .project:hover {
   border-left:#0f0e0e;
   border-right:#0f0e0e;
@@ -145,11 +146,23 @@ code {
   text-align: center;
   color:white;
 }
+
 .navbar-toggle{
 color:white;
 }
-@media only screen and (min-width:1440px) and (max-width:3000px) {
-  
+
+
+
+
+@media only screen and (min-width:1440px) and (max-width:2100px) {
+
+  .nav-item{
+    text-align: center;
+    color:white; 
+  }
+  .navbar-brand{
+    margin-right:00px;
+  }
   .app{
     display:flex;
     justify-content:space-around;
@@ -162,20 +175,15 @@ color:white;
   }
   .profile {
     width:45%;
-    margin:50px
+    margin:50px;
   }
   
-  /* .main-content {
-    height: 70%;
-    overflow-y: auto; 
+  #about {
+
   }
-  .sidebar {
-    height: 90%;
+  .Home{
+    padding:40px;
   }
-  .app {
-    width: 100vw;
-    height: 100vh;
-  } */
  
 
   .techno{
@@ -187,7 +195,7 @@ color:white;
     border-radius:10px;
     box-shadow:0px 0px 10px rgb(202, 32, 32);
     background-color:rgba(red, rgb(157, 207, 157), blue, alpha);
-    margin:5px;
+    margin:0 auto;
     padding:20px;
     width:200px;
   }
@@ -214,6 +222,24 @@ color:white;
     width:80px;
   }
   
+  .navtog{
+  
+    width:20%;
+    background:transparent;
+    border-radius: 20px;
+    margin-left:670px;
+  }
+  #nav{
+    border-radius: 20px;
+    display:none;
+    justify-content:flex-start;
+  }
+  
+  .navbar .navbar-expand-lg{
+    margin-left:200px;
+  } 
+  
+  
 }
 
 @media only screen and (min-width:992px) and (max-width:1439px) {
@@ -224,26 +250,19 @@ color:white;
     padding:20px 100px;
   }
   .sidebar{
-    width:400px;
+    width:280px;
     margin:0 auto;
     
   }
   .profile {
-    width:45%;
+    width:30%;
     margin:50px
   }
-  
-  /* .main-content {
-    height: 70%;
-    overflow-y: auto; 
+
+  .navbar{
+    width:100%;
+    position:absolute;
   }
-  .sidebar {
-    height: 90%;
-  }
-  .app {
-    width: 100vw;
-    height: 100vh;
-  } */
  
   #resume p {
     font-size:16px;
@@ -287,14 +306,23 @@ color:white;
     height:100px;
     width:80px;
   }
+  .navtog{
+  
+    width:20%;
+    background:transparent;
+    margin-left:570px;
+    border-radius: 20px;
+  }
   
 }
 @media only screen and (min-width:426px) and (max-width:991px) {
   .app{
     display:block;
   }
-  .responsive {
-   
+  .about{
+    margin:0 auto;
+    width:90%;
+    
   }
   #resume{
     margin-top:100px;

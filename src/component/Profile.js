@@ -6,6 +6,7 @@ import { FaBeer, FaRegIdBadge } from "react-icons/fa";
 import { BiCurrentLocation } from "react-icons/bi";
 import { BsFillPhoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import {BsGithub} from "react-icons/bs";
 
 
 const Profile = () => {
@@ -65,7 +66,18 @@ const Profile = () => {
                         <p style={{width:150,fontSize:14}}>sebternest@hotmail.com</p>
                         </div>  
                         
-                    </div>                          
+                    </div> 
+                    <div className='flex'>
+                        <span style ={{marginRight:15,color: "lightgray",fontSize:"2.2em"}}>
+                        <a href= "https://github.com/sebT-max"><BsGithub/></a>
+                        </span> 
+                        <div>
+                        <h6 style={{color:'grey'}}>Github</h6>
+                        <p style={{width:150,fontSize:14}}>github.com/sebT-max</p>
+                        </div>  
+                        
+                    </div> 
+                                             
                 </div>
                 <div style={{margin:10}} className="downloadCV" onClick={onButtonClick}>Download CV</div>
             </div> 

@@ -21,11 +21,14 @@ const Projects = () => {
             <h1 style={{color:'white',fontWeight:400}}> My last projects</h1>
             <hr/>
                 <div className="projects">
+                    
                     <div className="project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
                         
                             <div className="img">
                                 <a className="test-popup-link" href="https://www.lesepicurieuxdebacchus.com">
-                                    <img src={logoepi} style={{borderRadius:200,height: 150,width:"auto"}} alt="Brand-4"/>
+                                    <div style={{height:130}}>
+                                        <img src={logoepi} style={{borderRadius:200,height: 150,width:"auto"}} alt="Brand-4"/>
+                                    </div>
                                 </a>
                             </div>
                             <div className="title py-4">
@@ -35,12 +38,12 @@ const Projects = () => {
                         
                     </div>
                     
-                    <div className="project" style={{textAlign:"center",padding: 20,margin:0,marginTop:10}}>
+                    <div className="project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
                         
                             <div className="img">
                                 <a className="test-popup-link" href="https://www.immopreneur.be">
                                     <div style={{height:150}}>
-                                        <img src={immopreneur} style={{height: 150,width:"auto"}} alt="Brand-4"/>
+                                        <img src={immopreneur} style={{height: 130,width:"auto"}} alt="Brand-4"/>
                                     </div>
                                 </a>
                             </div>

@@ -1,4 +1,5 @@
 import './App.css';
+import './index.css';
 import Counter from './component/Counter'
 import React from 'react'
 import Profile from './component/Profile'
@@ -10,7 +11,7 @@ import Hobbies from './component/Hobbies'
 import Footer from './component/Footer'
 import "bootstrap/dist/css/bootstrap.min.css";
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import "./index.css";
+
 
 function App() {
   
@@ -20,10 +21,10 @@ function App() {
     <Router>  
     
       <div className= "Home">
+      <div className="navtog">
+            <Navbar fixed="top"/>
+    </div>
           
-          <div className="navtog">
-            <Navbar/>
-          </div>
             <Routes>
                   <Route path="/" element={<About/>}/>
                   <Route path="/resume" element={<Resume/>}/>
