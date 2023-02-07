@@ -8,7 +8,12 @@ body {
   color:white
 }
 
-
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  z-index: 3000;
+}
 
 code {
   font-family: refrigerator-deluxe, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -59,15 +64,29 @@ code {
 .projects {
   display:flex;
   flex-wrap:wrap;
+  justify-content: space-evenly;
   
 }
-.project {
+.project{
+  border:1px solid whitesmoke;
+  margin:5px;
   width:250px;
+  border-radius:20px;
+  padding:20px;
 }
+
 .project:hover {
   border-left:#0f0e0e;
-  border-right:#ed1f1f;
+  border-right:#0f0e0e;
+  box-shadow:0px 0px 10px rgb(202, 32, 32);
+  padding:40px;
+  margin:5px;
+  width:250px;
 }
+.Myhobbies{
+  display:none;
+}
+
 .project h4 {
   color:white;
 }
@@ -91,7 +110,12 @@ code {
 .jobTitle h2 {
   margin:0 auto;
 }
-
+.Myhobbies{
+  margin-top:230px;
+}
+.hr-fat{
+  height:100px;
+}
 
 .downloadCV{
   background: linear-gradient(#ed1f1f,#271f6c);
@@ -101,6 +125,7 @@ code {
   padding:20px;
   color:white;
   text-align:center;
+  cursor:pointer;
 }
 
 
@@ -123,17 +148,23 @@ code {
 .navbar-toggle{
 color:white;
 }
-
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:1440px) and (max-width:3000px) {
   
-  .responsive {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    padding:20px;
+  .app{
+    display:flex;
+    justify-content:space-around;
+    padding:20px 100px;
+  }
+  .sidebar{
+    width:400px;
+    margin:0 auto;
+    
   }
   .profile {
-
+    width:45%;
+    margin:50px
   }
+  
   /* .main-content {
     height: 70%;
     overflow-y: auto; 
@@ -145,22 +176,98 @@ color:white;
     width: 100vw;
     height: 100vh;
   } */
+ 
 
+  .techno{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .Backend {
+    border:1px solid white;
+    border-radius:10px;
+    box-shadow:0px 0px 10px rgb(202, 32, 32);
+    background-color:rgba(red, rgb(157, 207, 157), blue, alpha);
+    margin:5px;
+    padding:20px;
+    width:200px;
+  }
+  
+  .linkto {
+    width:80%;
+  }
+
+  
+  .nav-link{
+    background: rgb(36, 35, 35);
+    border-radius: 10px;
+    margin:20px;
+    padding:20px;
+    color:white;
+    height:100px;
+    width:80px;
+  }
+  .nav-link:hover{
+    background: linear-gradient(#ed1f1f,#271f6c);;
+    border-radius: 10px;
+    color:white;
+    height:100px;
+    width:80px;
+  }
+  
+}
+
+@media only screen and (min-width:992px) and (max-width:1439px) {
+  
+  .app{
+    display:flex;
+    justify-content:space-around;
+    padding:20px 100px;
+  }
+  .sidebar{
+    width:400px;
+    margin:0 auto;
+    
+  }
+  .profile {
+    width:45%;
+    margin:50px
+  }
+  
+  /* .main-content {
+    height: 70%;
+    overflow-y: auto; 
+  }
+  .sidebar {
+    height: 90%;
+  }
+  .app {
+    width: 100vw;
+    height: 100vh;
+  } */
+ 
+  #resume p {
+    font-size:16px;
+  }
+  #resume img {
+    width:100px;
+  }
+  .techno{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  }
   .Backend {
     border:1px solid white;
     box-shadow:0px 0px 10px rgb(202, 32, 32);
     background-color:rgba(red, rgb(157, 207, 157), blue, alpha);
-    width:80%;
+    width:100%;
     margin:0 auto;
-    padding:40px;
+    padding:10px;
   }
-
-  .profile {
-    margin:200px 0px 0px 100px;
-    width:70%;
-  }
+  
   .linkto {
-    width:1500px;
+    width:80%;
   }
 
   
@@ -183,9 +290,15 @@ color:white;
   
 }
 @media only screen and (min-width:426px) and (max-width:991px) {
+  .app{
+    display:block;
+  }
   .responsive {
-    display:grid;
-    grid-template-columns: 1fr;
+   
+  }
+  #resume{
+    margin-top:100px;
+    padding:30px;
   }
   .navtog{
     position: absolute;
@@ -240,9 +353,22 @@ color:white;
 
 
 @media only screen and (max-width:425px) {
+  .app{
+    display:block;
+  }
   .responsive {
-    display:grid;
-    grid-template-columns: 1fr;
+   
+  }
+  #resume{
+    margin-top:100px;
+    padding:30px;
+  }
+  #projects{
+    padding:30px;
+  }
+  #about{
+    margin-top:100px;
+    padding:30px;
   }
   h1{
     text-align: center;

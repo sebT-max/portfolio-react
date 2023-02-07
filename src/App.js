@@ -19,26 +19,18 @@ function App() {
     <> 
     <Router>  
     
-      <div className= "Home responsive">
-      
-        <div className="profile">
-          <Profile/>
-          <Hobbies/>
-        </div>
-
-        <div className="linkto container margin-auto">
-
+      <div className= "Home">
+          
           <div className="navtog">
             <Navbar/>
           </div>
-       
-          <Routes>
-                <Route path="/" element={<About/>}/>
-                <Route path="/resume" element={<Resume/>}/>
-                <Route path="/projects" element={<Projects/>}/>
-          </Routes>
-        </div>
+            <Routes>
+                  <Route path="/" element={<About/>}/>
+                  <Route path="/resume" element={<Resume/>}/>
+                  <Route path="/projects" element={<Projects/>}/>
+            </Routes>
       </div>
+        
     </Router>
           
  <Footer />

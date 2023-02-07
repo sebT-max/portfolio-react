@@ -3,14 +3,21 @@ import jamming from '../jamming.jpg';
 import immopreneur from '../immopreneur.webp';
 import quizmarvel from '../quiz-marvel.png';
 import logoepi from '../logoepi.png';
+import Profile from './Profile';
+
 
 
 const Projects = () => {
-
+    const profile = window.innerWidth < 992 ? '': 
+    (<div className="profile">
+          <Profile/>
+    </div>)
     return (
-        <>     
-        <div className="row" style={{color:'#FFF'}}>
-          <div className=" about sm-12 md-6 lg-4" >
+        <> 
+         <div className="app">
+         {profile}
+        <div id="projects" className="linkto row container" style={{color:'#FFF'}}>
+          <div className="about" >
             <h1 style={{color:'white',fontWeight:400}}> My last projects</h1>
             <hr/>
                 <div className="projects">
@@ -27,7 +34,8 @@ const Projects = () => {
                             </div>
                         
                     </div>
-                    <div className="project" style={{textAlign:"center",padding: 10,margin:0,marginTop:10}}>
+                    
+                    <div className="project" style={{textAlign:"center",padding: 20,margin:0,marginTop:10}}>
                         
                             <div className="img">
                                 <a className="test-popup-link" href="https://www.immopreneur.be">
@@ -70,7 +78,8 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div></div>    
+        
 
         </>   
     )

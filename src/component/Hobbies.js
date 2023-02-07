@@ -24,6 +24,7 @@ const Hobbies = () => {
 
   return (
     <>  
+   
     <div className="Myhobbies" style={{color:'#FFF'}}>
       <div className="margin-auto about sm-12 md-6 lg-4" >
         <h1 style={{color:'white',fontWeight:400}}> Besides work</h1>
@@ -35,26 +36,7 @@ const Hobbies = () => {
           </p>
         </div>
         <br/>
-      <div className='main-content selfie'>  
-        <h2>Technologies</h2>
-        <hr/>
-        <div className="techno">
-          <div className='Backend'>
-            <h3>Back-end</h3>
-            <img style={{width:200,height:120,margin:20}} src={rails}/>
-            <img src={postgres}/>
-            
-          </div>
-          <hr/>
-          
-          <div className='Backend'>
-            <h3>Front-end</h3>
-              <img style={{width:220,height:120,margin:20}} src={redux}/>
-              <img style={{width:200,height:150,marginBottom:20}} src={htmlco}/>
-          </div>
-          <hr/>
-        </div>
-      </div>
+     
       </div>
     </>   
 )
