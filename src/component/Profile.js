@@ -7,6 +7,7 @@ import { BiCurrentLocation } from "react-icons/bi";
 import { BsFillPhoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import {BsGithub} from "react-icons/bs";
+import ButtonMailto from "./ButtonMailTo"
 
 
 const Profile = () => {
@@ -34,7 +35,7 @@ const Profile = () => {
                 <div className="profile-data" >            
                    <div className='flex'>
                         <span style ={{marginRight:15,color:"lightblue",fontSize:"2.2em"}}>
-                        <BsFillPhoneFill /> 
+                        <a style={{color:"lightblue"}} href="0468129890"><BsFillPhoneFill /> </a>
                         </span> 
                         
                         <div>
@@ -58,12 +59,16 @@ const Profile = () => {
                     </div>
                     <div className='flex'>
                         <span style ={{marginRight:15,color: "lightgray",fontSize:"2.2em"}}>
-                        <MdEmail /> 
+                        
+                           <a style={{color:"white"}} href="mailto:sebternest@hotmail.com"><MdEmail /></a>  
+
                         </span> 
                         
                         <div>
                         <h6 style={{color:'grey'}}>Email</h6>
-                        <p style={{width:150,fontSize:14}}>sebternest@hotmail.com</p>
+                        <p style={{width:150,color:"white",fontSize:14}}>
+                            sebternest@hotmail.com
+                        </p>
                         </div>  
                         
                     </div> 
@@ -74,8 +79,7 @@ const Profile = () => {
                         <div>
                         <h6 style={{color:'grey'}}>Github</h6>
                         <p style={{width:150,fontSize:14}}>github.com/sebT-max</p>
-                        </div>  
-                        
+                        </div>                    
                     </div> 
                                              
                 </div>

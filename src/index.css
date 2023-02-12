@@ -22,7 +22,10 @@ code {
   font-weight: 300;
 }
 .about{
-  padding:20px;
+  padding:20px 20px 0px 20px;
+}
+.education{
+  padding:20px 20px 0px 20px;
 }
 .after-effect:after {
   position: absolute;
@@ -47,7 +50,6 @@ code {
   /* background-image:  linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77); */
   background-size: 8px 14px;
   background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
- 
   border-radius:20px;
   margin-top:20px;
   padding:10px;
@@ -73,17 +75,34 @@ code {
   width:250px;
   border-radius:20px;
   padding:20px;
+  text-align:center;
+  padding: 10px;
+  margin:0 auto;
+  margin-top:20px;
 }
-
 
 .project:hover {
-  border-left:#0f0e0e;
-  border-right:#0f0e0e;
+
   box-shadow:0px 0px 10px rgb(202, 32, 32);
-  padding:40px;
   margin:5px;
   width:250px;
+  border-radius:20px;
+  padding:10px;
+  text-align:center;
+  padding: 10px;
+  margin:0 auto;
+  margin-top:20px;
 }
+
+.project-image{
+  height:150px;
+}
+
+#projo-description {
+  padding:5px;
+}
+
+
 .Myhobbies{
   display:none;
 }
@@ -150,11 +169,45 @@ code {
 .navbar-toggle{
 color:white;
 }
+@media only screen and (min-width:1661px){
+  
+  .about{
+    margin:0 auto;
+    width:90%;
+    height:130px;
+  }
+  .education{
+    margin:0 auto;
+    width:90%;
+    height:auto;
+    
+  }
 
+  .navtog{
+  
+    width:20%;
+    background:transparent;
+    border-radius: 20px;
+    margin-left:1170px;
+  }
+  }
 
-
-
-@media only screen and (min-width:1440px) and (max-width:2100px) {
+@media only screen and (min-width:1440px) and (max-width:1660px) {
+#cloud{
+  width:600px;
+}
+.about{
+  margin:0 auto;
+  width:100%;
+  height:300px;
+}
+.education{
+  margin:0 auto;
+  width:100%;
+  height:auto;
+}
+}
+@media only screen and (min-width:1440px) {
 
   .nav-item{
     text-align: center;
@@ -177,10 +230,7 @@ color:white;
     width:45%;
     margin:50px;
   }
-  
-  #about {
-
-  }
+ 
   .Home{
     padding:40px;
   }
@@ -196,6 +246,8 @@ color:white;
     box-shadow:0px 0px 10px rgb(202, 32, 32);
     background-color:rgba(red, rgb(157, 207, 157), blue, alpha);
     margin:0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
     padding:20px;
     width:200px;
   }
@@ -227,7 +279,7 @@ color:white;
     width:20%;
     background:transparent;
     border-radius: 20px;
-    margin-left:670px;
+    margin-left:970px;
   }
   #nav{
     border-radius: 20px;
@@ -258,6 +310,30 @@ color:white;
     width:30%;
     margin:50px
   }
+  .project{
+    
+    margin:5px;
+    width:450px;
+    border-radius:20px;
+    padding:10px;
+    text-align:center;
+    padding: 10px;
+    margin:0 auto;
+    margin-top:20px;
+  }
+  
+  .project:hover {
+  
+    box-shadow:0px 0px 10px rgb(202, 32, 32);
+    margin:5px;
+    width:450px;
+    border-radius:20px;
+    padding:10px;
+    text-align:center;
+    padding: 10px;
+    margin:0 auto;
+    margin-top:20px;
+  }
 
   .navbar{
     width:100%;
@@ -273,8 +349,7 @@ color:white;
   .techno{
     display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-start;
+  justify-content: ;
   }
   .Backend {
     border:1px solid white;
@@ -282,7 +357,8 @@ color:white;
     background-color:rgba(red, rgb(157, 207, 157), blue, alpha);
     width:100%;
     margin:0 auto;
-    padding:10px;
+    padding:15px;
+    margin:2px;
   }
   
   .linkto {
@@ -322,11 +398,24 @@ color:white;
   .about{
     margin:0 auto;
     width:90%;
-    
   }
-  #resume{
+  #about{
     margin-top:100px;
+    padding:10px;
+    margin:0 auto;
+  }
+
+  #resume{
+    
     padding:30px;
+    margin:0 auto;
+    margin-top:100px;
+  }
+  #projects{
+    
+    padding:30px;
+    margin:0 auto;
+    margin-top:100px;
   }
   .navtog{
     position: absolute;
@@ -396,7 +485,8 @@ color:white;
   }
   #about{
     margin-top:100px;
-    padding:30px;
+    padding:10px;
+    margin:0 auto;
   }
   h1{
     text-align: center;

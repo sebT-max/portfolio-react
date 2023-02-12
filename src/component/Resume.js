@@ -21,17 +21,15 @@ const Resume = () => {
         {profile}
         <div id="resume" className="linkto row container" style={{color:'#FFF'}}>
             <div style={{marginBottom:50}} className="education" >  
-            <br/>
-                <h2>Education as developer</h2> 
+                <h1>Education as developer</h1> 
                 <hr/>
-                <h3 style={{color:'#FFF'}}>Le Wagon bootcamp - Obtained March 2021</h3>  
-                    <div className='flex'>
-                    <img style={{marginTop:20,borderRadius:10,height:200,width: 270}} src= {Wagon} alt="selfie"/>
-                    <img style={{marginTop:20,borderRadius:10,height:200,width: 200}} src= {Wagon2} alt="selfie"/>
-                        
-                    </div>
+                <h3 style={{color:'#FFF'}}>Le Wagon bootcamp - March 2021</h3>  
+                <div className='flex'>
+                <img style={{marginTop:20,borderRadius:10,height:200,width: 270}} src= {Wagon} alt="selfie"/>
+                    
+                </div>
                    
-                    <div className="about container">24-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
+                    <div className="education container">24-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
                         SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
                         production a clone of AirBnB and a Rails prototype.</div>
         
@@ -39,12 +37,12 @@ const Resume = () => {
             <hr/>
 
                 <div className="experience">
-                    <h2>Experience as developer</h2>
+                    <h1>Experience as developer</h1>
                     <hr/> 
                     <h3 style={{color:'#FFF'}}>Mindeed(ex-M&J consulting) - 8-12/2021</h3> 
                     <div className='flex'> 
                         <img style={{marginTop:20,borderRadius:10,width: 200}} src= {mindeed} alt="mindeed"/>
-                        <img style={{marginTop:20,borderRadius:10,width: 200}} src= {mj} alt="mindeed"/>            
+                                    
                     </div>
                     <div className="about container">Implementation of a real estate management interface for admin team and a user/owner area in www.immopreneur.be</div>
                 </div>
