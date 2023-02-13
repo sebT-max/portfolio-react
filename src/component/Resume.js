@@ -44,7 +44,9 @@ const Resume = () => {
                         <img style={{marginTop:20,borderRadius:10,width: 200}} src= {mindeed} alt="mindeed"/>
                                     
                     </div>
-                    <div className="about container">Implementation of a real estate management interface for admin team and a user/owner area in www.immopreneur.be</div>
+                    <div className="about container">Implementation of a real estate management interface for admin team and a user/owner area in                     
+                        <a style={{color:"white"}} className="test-popup-link" href="https://www.immopreneur.be"> immopreneur.be</a>
+                    </div>
                 </div>
 
             </div>

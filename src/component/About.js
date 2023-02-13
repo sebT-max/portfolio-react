@@ -44,11 +44,11 @@ const About = () => {
           </div>
             
           <div style={{textAlign:"center"}} className='selfie'>  
-            <h2>Technologies</h2>
+            <h2 style={{textAlign:"center"}}>Technologies</h2>
             <hr/>
             <div className="techno">
               <div className='Backend'>
-                <h3>Back-end</h3>
+                <h3 style={{textAlign:"center"}}>Back-end</h3>
                 <img style={{width:100,height:60,margin:20}} src={rails}/>
                 <img src={postgres}/>
                 

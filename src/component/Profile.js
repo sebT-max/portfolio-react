@@ -10,8 +10,9 @@ import {BsGithub} from "react-icons/bs";
 import ButtonMailto from "./ButtonMailTo"
 
 
+
 const Profile = () => {
-    const onButtonClick = () => {
+    const downloadCV = () => {
         // using Java Script method to get PDF file
         fetch('cv.pdf').then(response => {
             response.blob().then(blob => {
@@ -83,7 +84,8 @@ const Profile = () => {
                     </div> 
                                              
                 </div>
-                <div style={{margin:10}} className="downloadCV" onClick={onButtonClick}>Download CV</div>
+                <div style={{margin:10}} className="downloadCV" onClick={downloadCV}>Download CV</div>
+
             </div> 
         </>   
     )
