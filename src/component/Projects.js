@@ -3,6 +3,7 @@ import jamming from '../jamming.jpg';
 import immopreneur from '../immopreneur.webp';
 import quizmarvel from '../quiz-marvel.png';
 import logoepi from '../logoepi.png';
+import oldportfolio from '../aboutus copie.png';
 import Profile from './Profile';
 
 
@@ -78,6 +79,19 @@ const Projects = () => {
                             <div className="title py-4">
                                 <h4 className="project_title">Quiz-Marvel</h4>
                                 <span className="text-secondary" id="projo-description">Test-app React </span>
+                            </div>
+
+                    </div>
+                    <div className="project">
+                        
+                            <div className="img">
+                                <a className="test-popup-link" href="https://sebt-max.github.io">
+                                    <img src={oldportfolio} style={{borderRadius:400,height: 150,width:"auto"}} alt="Brand-4"/>
+                                </a>
+                            </div>
+                            <div className="title py-4">
+                                <h4 className="project_title">Old portfolio</h4>
+                                <span className="text-secondary" id="projo-description">Do you prefer ? </span>
                             </div>
 
                     </div>
