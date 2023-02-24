@@ -31,8 +31,8 @@ const Resume = () => {
                    
                     <div className="education container">24-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
                         SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
-                        production a clone of AirBnB and a Rails prototype.</div>
-        
+                        production a clone of AirBnB and a Rails prototype.<br/><br/>
+                        The National Commission of professionnal certification (CNCP) has recognized the Wagon as a level II certification course (corresponding to the level Bac +3/+4) for the professions of designer-developer of web applications. </div>
             </div>  
             <hr/>
 
