@@ -38,19 +38,19 @@ const About = () => {
           <div className="about">
             <h1 style={{color:'white',fontWeight:400}}> About me</h1>
             <hr/>
-            <p style={{color:'grey', fontSize:24}}>
+            <p style={{color:'grey'}}>
               I'm a passionate web developper who sees coding as an enjoyable activity, full of possibilities, open to creativity and above all as a tool for a more efficient world. Multilingual, I've always loved learning new languages. Music is also a language that I love and play.
             </p>
           </div>
             
-          <div style={{textAlign:"center"}} className='selfie'>  
+          <div style={{textAlign:"center"}} className='sidebar'>  
             <h2 style={{textAlign:"center"}}>Technologies</h2>
             <hr/>
             <div className="techno">
               <div className='Backend'>
                 <h3 style={{textAlign:"center"}}>Back-end</h3>
                 <img style={{width:100,height:60,margin:20}} src={rails}/>
-                <img src={postgres}/>
+                <img style={{width:105,marginRight:15,height:90,marginBottom:10}} src={postgres}/>
                 
               </div>
               <hr/>
@@ -58,20 +58,20 @@ const About = () => {
               <div className='Backend'>
                 <h3>Front-end</h3>
                   <img style={{width:130,height:70,marginTop:20,marginBottom:20}} src={redux}/>
-                  <img style={{width:100,height:75,marginBottom:20}} src={htmlco}/>
+                  <img style={{width:100,height:75,marginTop:20,marginBottom:20}} src={htmlco}/>
               </div>
               <hr/>
               <div className='Backend'>
                 <h3>Versioning</h3>
-                  <img style={{width:155,height:90,marginBottom:10}} src={gh}/>
-                  <img style={{width:135,height:90,marginBottom:20}} src={gitlab}/>
+                  <img style={{width:105,marginLeft:15,height:90,marginBottom:10}} src={gh}/>
+                  <img style={{width:135, marginTop:10,height:110,marginBottom:20}} src={gitlab}/>
               </div>
               <hr/>
               <div className='Backend' id="cloud">
                 <h3>Cloud</h3>
                   <img style={{width:100,height:100}} src={aws}/>
                   <img style={{width:140,height:80,marginBottom:20}} src={docker}/>
-                  <img style={{width:90,height:80,marginBottom:20}} src={kubernetes}/>
+                  {/* <img style={{width:90,height:80,marginBottom:20}} src={kubernetes}/> */}
 
               </div>
             </div>

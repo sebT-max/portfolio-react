@@ -21,15 +21,15 @@ function App() {
     <Router>  
     
       <div className= "Home">
-      <div className="navtog">
-            <Navbar fixed="top"/>
-    </div>
-          
-            <Routes>
-                  <Route path="/" element={<About/>}/>
-                  <Route path="/resume" element={<Resume/>}/>
-                  <Route path="/projects" element={<Projects/>}/>
-            </Routes>
+        <div className="navtog">
+              <Navbar fixed="top"/>
+        </div>
+            
+              <Routes>
+                    <Route path="/" element={<About/>}/>
+                    <Route path="/resume" element={<Resume/>}/>
+                    <Route path="/projects" element={<Projects/>}/>
+              </Routes>
       </div>
         
     </Router>

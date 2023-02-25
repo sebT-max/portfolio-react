@@ -45,8 +45,8 @@ code {
 }
 
 .selfie { 
-  background-color: #0f0e0e;
-  opacity: 0.6;
+  background-color: #0d0d11;
+  opacity: 0.9;
   /* background-image:  linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77); */
   background-size: 8px 14px;
   background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
@@ -54,13 +54,15 @@ code {
   margin-top:20px;
   padding:10px;
 }
-
-.profile {
-  margin:40px;
+.selfie:hover { 
+  
+  opacity: 1;
+  /* background-image:  linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(30deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(150deg, #332f2f 12%, transparent 12.5%, transparent 87%, #332f2f 87.5%, #332f2f), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77), linear-gradient(60deg, #332f2f77 25%, transparent 25.5%, transparent 75%, #332f2f77 75%, #332f2f77); */
+ 
 }
+
 .profile{
   text-align: center;
-  margin-top:60px;
 }
 
 .projects {
@@ -176,11 +178,28 @@ color:white;
     width:90%;
     height:130px;
   }
+  .about p {
+    font-size: 32px;
+  }
   .education{
     margin:0 auto;
     width:90%;
     height:auto;
     
+  }
+  .sidebar.selfie  { 
+    background-color: #0f0e0e;
+    opacity: 0.8;
+    background-size: 8px 14px;
+    background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
+    border-radius:20px;
+    margin-top:0px;
+    padding:10px;
+    transform:translate(0px,-70px);
+  }
+  .sidebar.selfie:hover { 
+    background-color: #0f0e0e;
+    opacity: 0.9;
   }
 
   .navtog{
@@ -200,6 +219,9 @@ color:white;
   margin:0 auto;
   width:100%;
   height:300px;
+}
+.about p {
+  font-size: 28px;
 }
 .education{
   margin:0 auto;
@@ -232,7 +254,7 @@ color:white;
   }
  
   .Home{
-    padding:40px;
+    padding:20px;
   }
  
 
@@ -291,30 +313,45 @@ color:white;
   .navbar .navbar-expand-lg{
     margin-left:200px;
   } 
+
+  .about p {
+    font-size: 24px;
+  }
   
   
 }
 
-@media only screen and (min-width:992px) and (max-width:1439px) {
+
+
+@media only screen and (min-width:1366px) and (max-width:1439px) {
   
   .app{
     display:flex;
     justify-content:space-around;
-    padding:20px 100px;
+    padding:0px 60px 120px 60px;
+  }
+  .about p {
+    font-size: 20px;
   }
   .sidebar{
-    width:280px;
+    width:320px;
     margin:0 auto;
     
   }
+  
   .profile {
     width:30%;
-    margin:50px
+    margin:10px;
+    padding:20px;
+  }
+  .projects {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
   }
   .project{
     
     margin:5px;
-    width:450px;
     border-radius:20px;
     padding:10px;
     text-align:center;
@@ -327,13 +364,15 @@ color:white;
   
     box-shadow:0px 0px 10px rgb(202, 32, 32);
     margin:5px;
-    width:450px;
     border-radius:20px;
     padding:10px;
     text-align:center;
     padding: 10px;
     margin:0 auto;
     margin-top:20px;
+  }
+  #projo-description {
+    font-size:12px;
   }
 
   .navbar{
@@ -347,19 +386,140 @@ color:white;
   #resume img {
     width:100px;
   }
+  .selfie h1{
+    font-size:28px;
+  }
+  .selfie h2{
+    font-size:24px;
+  }
   .techno{
     display: flex;
   flex-wrap: wrap;
-  justify-content: ;
   }
   .Backend {
     border:1px solid white;
     box-shadow:0px 0px 10px rgb(202, 32, 32);
     background-color:rgba(red, rgb(157, 207, 157), blue, alpha);
-    width:100%;
+    width:45%;
+    height:auto;
     margin:0 auto;
     padding:15px;
-    margin:2px;
+    margin-bottom:10px;
+    border-radius:10px;
+  }
+  
+  .linkto {
+    width:80%;
+  }
+
+  
+  .nav-link{
+    background: rgb(36, 35, 35);
+    border-radius: 10px;
+    margin:20px;
+    padding:20px;
+    color:white;
+    height:100px;
+    width:80px;
+  }
+  .nav-link:hover{
+    background: linear-gradient(#ed1f1f,#271f6c);;
+    border-radius: 10px;
+    color:white;
+    height:100px;
+    width:80px;
+  }
+  .navtog{
+  
+    width:20%;
+    background:transparent;
+    margin-left:570px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (min-width:992px) and (max-width:1365px) {
+  
+  .app{
+    display:flex;
+    justify-content:space-around;
+   
+  }
+ 
+  .about p {
+    font-size: 20px;
+  }
+  .sidebar{
+    width:270px;
+    margin:0 auto;
+    
+  }
+  .profile {
+    width:30%;
+    margin:10px;
+    padding:20px;
+  }
+  .projects {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+  }
+  .project{
+    
+    margin:5px;
+    border-radius:20px;
+    padding:10px;
+    text-align:center;
+    padding: 10px;
+    margin:0 auto;
+    margin-top:20px;
+  }
+  
+  .project:hover {
+  
+    box-shadow:0px 0px 10px rgb(202, 32, 32);
+    margin:5px;
+    border-radius:20px;
+    padding:10px;
+    text-align:center;
+    padding: 10px;
+    margin:0 auto;
+    margin-top:20px;
+  }
+  #projo-description {
+    font-size:12px;
+  }
+
+  .navbar{
+    width:100%;
+    position:absolute;
+  }
+ 
+  #resume p {
+    font-size:16px;
+  }
+  #resume img {
+    width:100px;
+  }
+  .selfie h1{
+    font-size:28px;
+  }
+  .selfie h2{
+    font-size:24px;
+  }
+  .techno{
+    display: flex;
+  flex-wrap: wrap;
+  }
+  .Backend {
+    border:1px solid white;
+    box-shadow:0px 0px 10px rgb(202, 32, 32);
+    background-color:rgba(red, rgb(157, 207, 157), blue, alpha);
+    width:45%;
+    height:auto;
+    margin:0 auto;
+    padding:15px;
+    margin-bottom:10px;
+    border-radius:10px;
   }
   
   .linkto {
@@ -398,13 +558,17 @@ color:white;
   }
   .about{
     margin:0 auto;
-    width:90%;
+    width:100%;
   }
   #about{
-    margin-top:100px;
-    padding:10px;
+    padding:20px 20px 20px 20px;
     margin:0 auto;
   }
+  .about p {
+    font-size: 28px;
+    margin-bottom:80px;
+  }
+  
   .custom-toggler{
     position:absolute;
     top:0;
@@ -415,6 +579,7 @@ color:white;
 
   .Backend {
     border:1px solid white;
+    border-radius:10px;
     box-shadow:0px 0px 10px rgb(202, 32, 32);
     background-color:rgba(red, rgb(157, 207, 157), blue, alpha);
     width:100%;
@@ -424,13 +589,11 @@ color:white;
   }
 
   #resume{
-    
     padding:30px;
     margin:0 auto;
     margin-top:100px;
   }
-  #projects{
-    
+  #projects{ 
     padding:30px;
     margin:0 auto;
     margin-top:100px;
@@ -445,7 +608,7 @@ color:white;
   }
 
   .profile {
-    margin-top:100px;
+    margin-top:0px;
   }
  
   h1{
@@ -466,7 +629,6 @@ color:white;
     height:90px;
   }
 
-  
 .nav-link:hover{
   background: linear-gradient(#ed1f1f,#271f6c);
   border-radius: 10px;
@@ -476,8 +638,21 @@ color:white;
 }
 
 .profile {
-  margin: 10px;
   margin-top:150px;
+}
+
+.sidebar.selfie  { 
+  background-color: #0d0d11;
+  opacity: 0.9;
+  background-size: 8px 14px;
+  background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
+  border-radius:20px;
+  margin-top:0px;
+  padding:30px;
+  transform:translate(0px,-70px);
+}
+.sidebar.selfie:hover { 
+  opacity: 1;
 }
 }
 
@@ -485,6 +660,10 @@ color:white;
 @media only screen and (max-width:425px) {
   .app{
     display:block;
+  }
+  .about p {
+    font-size: 24px;
+    margin-bottom:40px;
   }
   .Backend {
     border:1px solid white;
@@ -494,6 +673,7 @@ color:white;
     margin:0 auto;
     padding:15px;
     margin:2px;
+    border-radius:10px;
   }
   .custom-toggler{
     position:absolute;
@@ -502,9 +682,7 @@ color:white;
     margin:2px;
     z-index:1020;
   }
-  .responsive {
-   
-  }
+  
   #resume{
     margin-top:100px;
     padding:30px;
@@ -513,7 +691,6 @@ color:white;
     padding:30px;
   }
   #about{
-    margin-top:100px;
     padding:10px;
     margin:0 auto;
   }
@@ -553,5 +730,19 @@ color:white;
 .profile {
   margin: 10px;
   margin-top:150px;
+}
+
+.sidebar.selfie  { 
+  background-color: #0d0d11;
+  opacity: 0.9;
+  background-size: 8px 14px;
+  background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
+  border-radius:20px;
+  margin-top:0px;
+  padding:10px;
+  transform:translate(0px,-70px);
+}
+.sidebar.selfie:hover { 
+  opacity: 1;
 }
 }

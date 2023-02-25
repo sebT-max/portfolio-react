@@ -32,20 +32,17 @@ const Profile = () => {
             <div className="sidebar selfie" >          
                 <img style={{position:"relative",top:-60,margin:0}} className="me" src= {imgseb} alt="selfie"/>
                 <h1 style={{color:'#FFF'}}>Sébastien Ternest</h1> 
-                <h2 style={{color:"whitesmoke",textAlign:"center"}}>Junior FullStack Developer</h2>
+                <h2 style={{color:"lightblue",textAlign:"center"}}>Junor FullStack Developer</h2>
                 <div className="profile-data" >            
                    <div className='flex'>
                         <span style ={{marginRight:15,color:"lightblue",fontSize:"2.2em"}}>
                         <a style={{color:"lightblue"}} href="0468129890"><BsFillPhoneFill /> </a>
-                        </span> 
-                        
+                        </span>     
                         <div>
                         <h6 style={{color:'grey'}}>Phone</h6>
                         <p style={{width:150,fontSize:14}}>+32468129890</p>
-                        </div>  
-                        
-                    </div>
-                    
+                        </div>       
+                    </div>   
 
                     <div className='flex'>
                         <span style ={{marginRight:15,color: "lightcoral",fontSize:"2.2em"}}>
