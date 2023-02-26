@@ -49,28 +49,28 @@ const About = () => {
             <div className="techno">
               <div className='Backend'>
                 <h3 style={{textAlign:"center"}}>Back-end</h3>
-                <img style={{width:100,height:60,margin:20}} src={rails}/>
-                <img style={{width:105,marginRight:15,height:90,marginBottom:10}} src={postgres}/>
+                <img style={{width:100,height:60,margin:10}} src={rails}/>
+                <img style={{width:100,margin:10,height:90,marginBottom:10}} src={postgres}/>
                 
               </div>
               <hr/>
               
               <div className='Backend'>
                 <h3>Front-end</h3>
-                  <img style={{width:130,height:70,marginTop:20,marginBottom:20}} src={redux}/>
-                  <img style={{width:100,height:75,marginTop:20,marginBottom:20}} src={htmlco}/>
+                  <img style={{width:100,height:75,margin:10}} src={redux}/>
+                  <img style={{width:100,height:75,margin:10}} src={htmlco}/>
               </div>
               <hr/>
               <div className='Backend'>
                 <h3>Versioning</h3>
-                  <img style={{width:105,marginLeft:15,height:90,marginBottom:10}} src={gh}/>
-                  <img style={{width:135, marginTop:10,height:110,marginBottom:20}} src={gitlab}/>
+                  <img style={{width:80,height:80,margin:10}} src={gh}/>
+                  <img style={{width:80,height:80,margin:10}} src={gitlab}/>
               </div>
               <hr/>
               <div className='Backend' id="cloud">
                 <h3>Cloud</h3>
-                  <img style={{width:100,height:100}} src={aws}/>
-                  <img style={{width:140,height:80,marginBottom:20}} src={docker}/>
+                  <img style={{width:80,height:80,margin:15}} src={aws}/>
+                  <img style={{width:80,height:70,margin:15}} src={docker}/>
                   {/* <img style={{width:90,height:80,marginBottom:20}} src={kubernetes}/> */}
 
               </div>
