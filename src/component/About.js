@@ -70,7 +70,7 @@ const About = () => {
               <div className='Backend' id="cloud">
                 <h3>Cloud</h3>
                   <img style={{width:80,height:80,margin:15}} src={aws}/>
-                  <img style={{width:80,height:70,margin:15}} src={docker}/>
+                  <img style={{width:80,height:70, marginBottom:15}} src={docker}/>
                   {/* <img style={{width:90,height:80,marginBottom:20}} src={kubernetes}/> */}
 
               </div>
