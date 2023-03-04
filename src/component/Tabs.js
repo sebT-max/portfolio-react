@@ -36,37 +36,28 @@ function Tabs(props) {
                 <h5>1) Development of the admin interface allowing Immopreneur employees to:<br/><br/></h5>
                 <ul> 
                     <li>
-                    Create the documents relating to a lease in the lease department dynamically (lease contracts, inventory, termination letter, indexing letter of
+                    Create the documents dynamically (lease, inventory, termination letter, indexing letter of
                     rent, etc.)
                     </li>
-                        
-                    
-                    <li> Create the documents relating to a lease in the lease department dynamically (lease contracts, inventory, termination letter, indexing letter of
-                    rent, etc.)</li>
-
-                    <li> Organizing property visits</li>
-
+                    <li> Organize property visits</li>
                     <li> Communicate on works/repairs</li>
-
-                    <li>Create new opportunities for real estate</li>
-
-                    <li> Project follow-up<br/><br/></li>
+                    <li> Create new opportunities for real estate</li>
+                    <li> Have a follow-up of the project<br/><br/></li>
                 </ul>
-
 
             <h5>2) Development of an authorized owner space in 6 parts:<br/></h5>
             <ul>
-                <li>Goods</li>
-                <li>Locations</li>
-                <li>Repair with a chat system</li>
-                <li>Schedule of visits</li>
+                <li>Realties</li>
+                <li>Rentals</li>
+                <li>Rental repair with a chat system</li>
+                <li>Scheduling of visits</li>
                 <li>Finance with graph and list of transactions (rents paid)</li>
-                <li>Monthly report of the other parties concerning the property(ies) of the owner.</li>
+                <li>Monthly report of the other parts concerning the property(ies) of the owner.</li>
             </ul>
             <h5>3) Public pages of the site: <br/></h5>
                 <ul>
                     <li>Real estate opportunities with calculation of interests</li>
-                    <li>presentation of projects and other pages for which I only worked on the design</li>
+                    <li>Presentation of projects and other pages for which I only worked on the design</li>
                     
                     
                 </ul>
