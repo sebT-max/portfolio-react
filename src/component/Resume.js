@@ -16,7 +16,8 @@ const Resume = () => {
         <>  
         <div className="app">
             {profile} 
-            <Tabs />  
+            <Tabs /> 
+             
         </div> 
         </>   
     )
