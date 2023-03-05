@@ -1,5 +1,5 @@
 import { getSuggestedQuery } from '@testing-library/react';
-import React,{Fragment} from 'react';
+import React,{Fragment,useEffect,useState} from 'react';
 import imgseb from '../me.png';
 import selftitle from '../sebTitle.png';
 import { FaBeer, FaRegIdBadge } from "react-icons/fa";
@@ -12,6 +12,7 @@ import ButtonMailto from "./ButtonMailTo"
 
 
 const Profile = () => {
+
     const downloadCV = () => {
         // using Java Script method to get PDF file
         fetch('cv.pdf').then(response => {
@@ -29,8 +30,8 @@ const Profile = () => {
     return (
         
         <>     
-            <div className="sidebar selfie" >          
-                <img style={{position:"relative",top:-60,margin:0}} className="me" src= {imgseb} alt="selfie"/>
+            <div className="sidebar selfie" >       
+                <img className="me" src= {imgseb} alt="selfie"/>
                 <h1 style={{color:'#FFF'}}>Sébastien Ternest</h1> 
                 <h2 style={{color:"lightblue",textAlign:"center"}}>Junior FullStack Developer</h2>
                 <div className="profile-data" >            
