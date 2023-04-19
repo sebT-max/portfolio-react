@@ -3,6 +3,7 @@ import jamming from '../jamming.jpg';
 import immopreneur from '../immopreneur.webp';
 import quizmarvel from '../quiz-marvel.png';
 import logoepi from '../logoepi.png';
+import reciplan from '../reciplan2.png';
 import oldportfolio from '../aboutus copie.png';
 import Profile from './Profile';
 
@@ -78,6 +79,19 @@ const Projects = () => {
                                 </div>
                                 <div className="title py-4">
                                     <h4 className="project_title">Quiz-Marvel</h4>
+                                    <span className="text-secondary" id="projo-description">Test-app React </span>
+                                </div>
+
+                        </div>
+                        <div className="project">
+                            
+                                <div className="img">
+                                    <a className="test-popup-link" href="https://reciplan-b1fc6.web.app/">
+                                        <img src={reciplan} style={{borderRadius:400,height: 150,width:"auto"}} alt="Brand-4"/>
+                                    </a>
+                                </div>
+                                <div className="title py-4">
+                                    <h4 className="project_title">Reciplan</h4>
                                     <span className="text-secondary" id="projo-description">Test-app React </span>
                                 </div>
 
