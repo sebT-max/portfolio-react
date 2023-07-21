@@ -19,9 +19,9 @@ const Projects = () => {
          <div className="app">
             {profile}
             <div id="projects" className="linkto row container" style={{color:'#FFF'}}>
-            <div className="about" >
-                <h1 style={{color:'white',fontWeight:400}}> My last projects</h1>
-                <hr/>
+                <div className="about" >
+                    <h1 style={{color:'white',fontWeight:400}}> My last projects</h1>
+                    <hr/>
                     <div className="projects">
                         
                         <div className="project">
@@ -51,7 +51,7 @@ const Projects = () => {
                                 </div>
                                 <div className="title py-4">
                                     <h4 className="project_title">Immopreneur</h4>
-                                    <span className="text-secondary" id="projo-description">Rental management service for the admin team of immopreneur and a user/owner area with a report over all the actualities around their investments. </span>
+                                    <span className="text-secondary" id="projo-description">Rental management service</span>
                                 </div>
                         
                         </div>
