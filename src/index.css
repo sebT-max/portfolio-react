@@ -41,9 +41,9 @@ code {
   font-style: normal;
   font-weight: 300;
 }
-.about{
+/* .about{
   padding:20px 20px 0px 20px;
-}
+} */
 .button-grey{
   background-color: rgb(42, 39, 39);
   padding:10px;
@@ -234,10 +234,10 @@ color:white;
 
 @media only screen and (min-width:2005px){
   .project{
-    margin:20px 50px;
+    margin:15px 50px;
   }
   .project:hover{
-    margin:20px 50px;
+    margin:15px 50px;
   }
 }
 
@@ -523,6 +523,18 @@ color:white;
     margin-left:570px;
     border-radius: 20px;
   }
+}
+
+@media only screen and (min-width:992px)and (max-width:1193px){
+  .project{
+    width:200px;
+    margin:5px;
+  }
+  .project:hover{
+    width:200px;
+    margin:5px;
+  }
+ 
 }
 @media only screen and (min-width:992px) and (max-width:1394px) {
   
