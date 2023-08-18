@@ -74,7 +74,7 @@ h1 {
 .welcomePage {
   background-color: var(--red-color);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   display: flex;
   justify-content: space-between;
   height: 500px;

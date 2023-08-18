@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Wagon from '../certif-wagon.png';
 import mindeed from '../mindeed.png';
+import react_certif from '../react_certif.jpg';
 
 function Tabs(props) {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -80,15 +81,51 @@ function Tabs(props) {
         (
         <div className="education" >  
            
-            <h3>Le Wagon bootcamp <br/> March 2021</h3>  
+            <h3>Le Wagon 24-week intensive coding bootcamp <br/> March 2022</h3>  
             <div className='flex'>
-            <img style={{marginTop:20,borderRadius:10,height:200,width: 270}} src= {Wagon} alt="selfie"/>
+                <img style={{marginTop:20,borderRadius:10,height:200,width: 270}} src= {Wagon} alt="selfie"/>
             </div>
-                <div className="about container"><br/>24-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
-                    SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
-                    production a clone of AirBnB and a Rails prototype.<br/><br/>
+
+                <div className="container"><br/>
                     The National Commission of professionnal certification (CNCP) has recognized the Wagon as a level II certification course (corresponding to the level Bac +3/+4) for the professions of designer-developer of web applications.
                 </div>
+
+                <div className="selfie tech-exp">
+                    <h3>Content of the courses</h3>      
+                    <div className='buttons-exp wrap'>
+                        <div className='button-grey'>Ruby on Rails</div>
+                        <div className='button-grey'>HTML & CSS</div>
+                        <div className='button-grey'>Javascript ES6</div>
+                        <div className='button-grey'>Github</div>
+                        <div className='button-grey'>PostgreSQL</div>
+                        <div className='button-grey'>Heroku</div>
+                    </div>
+                </div>
+
+            <hr/> 
+            <br/>    
+            <h3>React JS 45 hours UDEMY online courses<br/> August 2023</h3>  
+            <div className='flex'>
+            <img style={{marginTop:20,borderRadius:10,height:200,width: 270}} src= {react_certif} alt="selfie"/>
+            </div>
+                <div className="container"><br/>Master REACT with HOOKS, REDUX, FIREBASE, APIs from A to Z<br/><br/>
+                <div className="selfie tech-exp">
+            <h4>Content of the courses</h4>      
+                <div className='buttons-exp wrap'>
+                    <div className='button-grey'>React JS 16, 17, 18</div>
+                    <div className='button-grey'>Redux</div>
+                    <div className='button-grey'>State management</div>
+                    <div className='button-grey'>Use API's in React App</div>
+                    <div className='button-grey'>Deployment on Firebase</div>
+                </div>
+                
+                </div>
+                
+                <div className="text-center">
+                    <a className="button-white" href="https://www.udemy.com/course/formation-react-js-pour-tous/"> More infos</a>
+                </div>    
+            </div>              
+                
             </div> 
         )
         }
