@@ -86,12 +86,12 @@ function Tabs(props) {
                 <img style={{marginTop:20,borderRadius:10,height:200,width: 270}} src= {Wagon} alt="selfie"/>
             </div>
 
-                <div className="container"><br/>
+                <div className="text-center container"><br/>
                     The National Commission of professionnal certification (CNCP) has recognized the Wagon as a level II certification course (corresponding to the level Bac +3/+4) for the professions of designer-developer of web applications.
                 </div>
 
                 <div className="selfie tech-exp">
-                    <h3>Content of the courses</h3>      
+                    <h3>Content</h3>      
                     <div className='buttons-exp wrap'>
                         <div className='button-grey'>Ruby on Rails</div>
                         <div className='button-grey'>HTML & CSS</div>
@@ -108,9 +108,9 @@ function Tabs(props) {
             <div className='flex'>
             <img style={{marginTop:20,borderRadius:10,height:200,width: 270}} src= {react_certif} alt="selfie"/>
             </div>
-                <div className="container"><br/>Master REACT with HOOKS, REDUX, FIREBASE, APIs from A to Z<br/><br/>
+                <div className="text-center container"><br/>Master REACT with HOOKS, REDUX, FIREBASE, APIs from A to Z<br/><br/>
                 <div className="selfie tech-exp">
-            <h4>Content of the courses</h4>      
+            <h3>Content</h3>      
                 <div className='buttons-exp wrap'>
                     <div className='button-grey'>React JS 16, 17, 18</div>
                     <div className='button-grey'>Redux</div>
