@@ -33,7 +33,7 @@ const Profile = () => {
             <div className="sidebar selfie" >       
                 <img className="me" src= {imgseb} alt="selfie"/>
                 <h1 style={{color:'#FFF'}}>Sébastien Ternest</h1> 
-                <h2 style={{color:"lightblue",textAlign:"center"}}>Junior FullStack Developer</h2>
+                <h2 style={{color:"lightblue",textAlign:"center", fontSize:"1.8rem"}}>FullStack Developer</h2>
                 <div className="profile-data" >            
                    <div className='flex'>
                         <span style ={{marginRight:15,color:"lightblue",fontSize:"2.2em"}}>
