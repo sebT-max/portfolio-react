@@ -182,24 +182,18 @@ code {
 }
 
 .jobTitle {
-  width:200px;
-  padding:20px;
+  
+  padding:0px;
   color:whitesmoke;
   border-radius:20px;
-  background-color:rgba(20, 19, 19, 0.839);
   text-align:center;
+  font-size: 1.8rem;
 
 }
 .jobTitle h2 {
   margin:0 auto;
+  font-size:1.8rem;
 }
-.Myhobbies{
-  margin-top:230px;
-}
-.hr-fat{
-  height:100px;
-}
-
 .downloadCV{
   background: linear-gradient(#ed1f1f,#271f6c);
   border-radius: 10px;
@@ -210,6 +204,33 @@ code {
   text-align:center;
   cursor:pointer;
 }
+
+@media only screen and (max-width:430px){
+  .jobTitle{
+    font-size:1.3rem;
+  }
+  .downloadCV {
+    background: linear-gradient(#ed1f1f, #271f6c);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+.Myhobbies{
+  margin-top:230px;
+}
+.hr-fat{
+  height:100px;
+}
+
+
 
 
 .profile-data{
@@ -644,7 +665,7 @@ color:white;
   }
   
 }
-@media only screen and (min-width:426px) and (max-width:991px) {
+@media only screen and (min-width:431px) and (max-width:991px) {
   .app{
     display:block;
   }
@@ -754,7 +775,7 @@ color:white;
 }
 
 
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:430px) {
   .app{
     display:block;
   }
@@ -779,6 +800,9 @@ color:white;
     margin:2px;
     z-index:1020;
   }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
   
   #resume{
     margin-top:100px;
@@ -787,6 +811,19 @@ color:white;
   #projects{
     padding:30px;
   }
+  .profile-data{
+    color:white;
+    width:240px;
+    border-radius:10px;
+    padding:20px;
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom:0px;
+    background-color: transparent;
+    opacity:0.9;
+    text-align: left;
+  }
+
   #about{
     padding:10px;
     margin:0 auto;
@@ -830,8 +867,7 @@ color:white;
 
 }
 .profile {
-  margin: 10px;
-  margin-top:150px;
+  margin-top:70px;
 }
 
 .sidebar.selfie  { 
@@ -839,10 +875,10 @@ color:white;
   opacity: 0.9;
   background-size: 8px 14px;
   background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
-  border-radius:20px;
-  margin-top:0px;
-  padding:10px;
-  transform:translate(0px,-70px);
+  border-radius: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  transform: translate(0px, -70px);
 }
 .sidebar.selfie:hover { 
   opacity: 1;
