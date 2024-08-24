@@ -846,8 +846,9 @@ color:white;
   }
  
   #nav{
-    padding:10px;
-    margin-top:36px;
+    padding: 10px;
+    margin-top: 26px;
+    background: #0D0D11;
   }
   
   .nav-link{

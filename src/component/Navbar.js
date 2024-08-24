@@ -13,7 +13,7 @@ function Navbar() {
     setIsNavCollapsed(!isNavCollapsed)
   };
 
-  const barreau = !isNavCollapsed ? <CloseButton />:<span className="navbar-toggler-icon"></span>
+  const barreau = !isNavCollapsed ? <CloseButton variant = "white"  />:<span className="navbar-toggler-icon"></span>
         
   return (
     <nav className="navbar navbar-expand-lg">
