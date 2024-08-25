@@ -10,7 +10,7 @@ import Profile from './Profile';
 
 
 const Projects = () => {
-    const profile = window.innerWidth < 992 ? '': 
+    const profile = window.innerWidth < 1024 ? '': 
     (<div className="profile">
           <Profile/>
     </div>)
