@@ -25,10 +25,15 @@ function Navbar() {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
           <Link  onClick={handleNavCollapse} style ={{color:"lightblue"}} className={`${isNavCollapsed ? 'col':'link_sm'} nav-link`} to="/">
-            
-              <span style ={{color:"lightblue",fontSize:"2.2em"}}>
+          <div className={`${isNavCollapsed ? '':'m-r_20'} `}>
+              
+              
+              <span style ={{color:"lightblue",fontSize:"2.1em"}}>
                 <IoHome className={`${isNavCollapsed ? '':'lightblue_border'} `} />
               </span> Home
+
+              </div>
+              
           
 
           </Link> 
