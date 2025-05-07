@@ -23,21 +23,32 @@ const Projects = () => {
                     <h1 style={{color:'white',fontWeight:400}}> My last projects</h1>
                     <hr/>
                     <div className="projects">
-                        
                         <div className="project">
-                            
-                                <div className="img">
-                                    <a className="test-popup-link" href="https://www.lesepicurieuxdebacchus.com">
-                                        <div class="project-image">
-                                            <img src={logoepi} style={{borderRadius:200,height: 150,width:"auto"}} alt="Brand-4"/>
-                                        </div>
-                                    </a>
+                            <div className="img">
+                                <a className="test-popup-link" href="https://https://test-acf.netlify.app/">
+                                <div class="project-image">
+                                    <img src={acf} style={{borderRadius:30}} alt="Brand-4"/>
                                 </div>
-                                <div className="title py-4">
-                                    <h4 className="project_title">Wine e-shop</h4>
-                                    <span className="text-secondary" id="projo-description">E-commerce for a wine business </span>
-                                </div>
-                            
+                                </a>
+                            </div>
+                            <div className="title py-4">
+                                <h4 className="project_title">Certified Driver Improvement Center in France</h4>
+                                <span className="text-secondary" id="projo-description">Java/Angular</span>
+                            </div>  
+                        </div>
+                        
+                        <div className="project"> 
+                            <div className="img">
+                                <a className="test-popup-link" href="https://www.lesepicurieuxdebacchus.com">
+                                    <div class="project-image">
+                                        <img src={logoepi} style={{borderRadius:200,height: 150,width:"auto"}} alt="Brand-4"/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="title py-4">
+                                <h4 className="project_title">Wine e-shop</h4>
+                                <span className="text-secondary" id="projo-description">E-commerce for a wine business </span>
+                            </div>
                         </div>
                         
                         
