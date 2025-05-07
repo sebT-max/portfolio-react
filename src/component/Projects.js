@@ -1,13 +1,10 @@
 import React,{Fragment} from 'react';
 import jamming from '../jamming.jpg';
-import immopreneur from '../immopreneur.webp';
 import quizmarvel from '../quiz-marvel.png';
 import logoepi from '../logoepi.png';
 import reciplan from '../reciplan2.png';
-import oldportfolio from '../aboutus copie.png';
+import acf from '../acf.png';
 import Profile from './Profile';
-
-
 
 const Projects = () => {
     const profile = window.innerWidth < 1024 ? '': 
