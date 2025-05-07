@@ -22,7 +22,7 @@ const Projects = () => {
                     <div className="projects">
                         <div className="project">
                             <div className="img">
-                                <a className="test-popup-link" href="https://https://test-acf.netlify.app/">
+                                <a className="test-popup-link" href="https://test-acf.netlify.app/">
                                 <div class="project-image">
                                     <img src={acf} style={{borderRadius:30}} alt="Brand-4"/>
                                 </div>

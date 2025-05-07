@@ -187,7 +187,8 @@ code {
 }
 
 .project h4 {
-  color:white;
+  color:#fff;
+  height: 100px;
 }
 .eduExp{
   display:flex;
@@ -488,7 +489,8 @@ color:white;
 
 
   #projo-description {
-    font-size:12px;
+    font-size: 18px;
+    color: white !important;
   }
 
   .navbar{
