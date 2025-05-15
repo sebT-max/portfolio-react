@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Wagon from '../certif-wagon.png';
 import mindeed from '../mindeed.png';
 import react_certif from '../react_certif.jpg';
+import technofutur_certif from '../attestation_technofuturTic.png';
 
 function Tabs(props) {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -80,7 +81,32 @@ function Tabs(props) {
         :
         (
         <div className="education" >  
-           
+           <h3>Technofutur Tic Java/Angular <br/> April 2025</h3>  
+            <div className='flex'>
+                <img style={{marginTop:20,borderRadius:10,height:400,width: 270}} src= {technofutur_certif} alt="selfie"/>
+            </div>
+
+                <div className="text-center container"><br/>
+                    Intensive training program focusing on backend technologies like Java, Spring
+                    Boot, and RESTful services, as well as frontend development with Angular. It in-
+                    cludes SQL database management, application security fundamentals, and
+                    hands-on labs. Participants complete the program with an individual develop-
+                    ment project to apply their skills.
+                </div>
+
+                <div className="selfie tech-exp">
+                    <h3>Content</h3>      
+                    <div className='buttons-exp wrap'>
+                        <div className='button-grey'>Java Spring</div>
+                        <div className='button-grey'>Angular</div>
+                        <div className='button-grey'>Hibernate</div>
+                        <div className='button-grey'>JDBC</div>
+                        <div className='button-grey'>Github</div>
+                        <div className='button-grey'>PostgreSQL</div>
+                    </div>
+                </div>
+            <hr/> 
+            <br/> 
             <h3>Le Wagon 24-week intensive coding bootcamp <br/> March 2022</h3>  
             <div className='flex'>
                 <img style={{marginTop:20,borderRadius:10,height:200,width: 270}} src= {Wagon} alt="selfie"/>
