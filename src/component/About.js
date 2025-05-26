@@ -12,6 +12,7 @@ import {DiIntellij} from "react-icons/di";
 import react from '../react2.png';
 import postgres from '../postgresql.svg';
 import redux from '../react-redux.png';
+import Java from '../java.png';
 import rails from '../rails.png';
 import htmlco from '../html&co.png';
 import gitlab from '../gitlab.png';
@@ -19,6 +20,8 @@ import gh from '../gh.png';
 import heroku from '../heroku.png';
 import aws from '../aws.png';
 import docker from '../docker.png';
+import MySQL_logo from '../MySQL_logo.png';
+import Angular_logo from '../angular.png';
 import kubernetes from '../kubernetes.png';
 import Profile from './Profile';
 
@@ -49,8 +52,10 @@ const About = () => {
             <div className="techno">
               <div className='Backend'>
                 <h3 style={{textAlign:"center"}}>Back-end</h3>
-                <img style={{width:100,height:60,margin:10}} src={rails}/>
-                <img style={{width:100,margin:10,height:90,marginBottom:10}} src={postgres}/>
+                <img style={{width:80,height:64,margin:10}} src={rails}/>
+                <img style={{width:80,margin:10,height:64,marginBottom:10}} src={postgres}/>
+                <img style={{width:100,margin:10,height:64,marginBottom:10}} src={MySQL_logo}/>
+                <img style={{width:80,margin:10,height:64,marginBottom:10}} src={Java}/>
                 
               </div>
               <hr/>
@@ -59,6 +64,7 @@ const About = () => {
                 <h3>Front-end</h3>
                   <img style={{width:100,height:75,margin:10}} src={redux}/>
                   <img style={{width:100,height:75,margin:10}} src={htmlco}/>
+                  <img style={{width:100,height:75,margin:10}} src={Angular_logo}/>
               </div>
               <hr/>
               <div className='Backend'>
