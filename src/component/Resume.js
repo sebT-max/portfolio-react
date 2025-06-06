@@ -1,7 +1,4 @@
-import { getSuggestedQuery } from '@testing-library/react';
-import React,{Fragment,useEffect,useState} from 'react';
-import selftitle from '../sebTitle.png';
-import mj from '../mj.png';
+import React,{useEffect,useState} from 'react';
 import Profile from './Profile';
 import Tabs from './Tabs';
 

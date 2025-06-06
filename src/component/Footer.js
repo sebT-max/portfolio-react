@@ -1,5 +1,5 @@
 import React from 'react';
-import sebTtitle from '../sebTitle.png';
+import sebTtitle from '../assets/images/sebTitle.png';
 
 
 function Footer(){

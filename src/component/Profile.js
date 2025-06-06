@@ -1,13 +1,9 @@
-import { getSuggestedQuery } from '@testing-library/react';
-import React,{Fragment,useEffect,useState} from 'react';
-import imgseb from '../me.png';
-import selftitle from '../sebTitle.png';
-import { FaBeer, FaRegIdBadge } from "react-icons/fa";
+import React from 'react';
+import imgseb from '../assets/images/me.png';
 import { BiCurrentLocation } from "react-icons/bi";
 import { BsFillPhoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import {BsGithub} from "react-icons/bs";
-import ButtonMailto from "./ButtonMailTo"
 
 
 

@@ -80,7 +80,7 @@ h1 {
   background-position: center;
   display: flex;
   justify-content: space-between;
-  height: 500px;
+  height: auto;
 }
 
 footer {
@@ -107,7 +107,7 @@ footer {
   background-color: #0e0d0d;
   opacity: 1;
   background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0e0d0d 4px ), repeating-linear-gradient( #183d5d55, #183d5d );
-  
+  height:auto;
 }
 .btn-welcome {
   border: 2px solid var(--white-color);

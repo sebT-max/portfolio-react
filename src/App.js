@@ -1,5 +1,5 @@
 import './App.css';
-import './index.css';
+import './index.scss';
 import Counter from './component/Counter'
 import React from 'react'
 import Profile from './component/Profile'

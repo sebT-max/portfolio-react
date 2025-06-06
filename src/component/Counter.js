@@ -2,7 +2,7 @@ import React,{useState} from "react"
 
 const Counter = () => {
     const [seconds, setSeconds] = useState(0)
-    const [paused, setPaused] = useState(false)
+    const [setPaused] = useState(false)
 
 
     const startTimer = () => {

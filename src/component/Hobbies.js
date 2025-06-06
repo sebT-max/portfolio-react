@@ -1,24 +1,4 @@
-import React,{Fragment,useState} from 'react'
-import {Link} from 'react-router-dom';
-import technos from '../technos.png';
-import {BsGithub} from "react-icons/bs"; 
-import {DiRuby} from "react-icons/di"; 
-import {DiResponsive} from "react-icons/di";
-import {ImHtmlFive} from "react-icons/im";
-import {FaAws} from "react-icons/fa";
-import {SiJquery} from "react-icons/si"; 
-import {SiCss3} from "react-icons/si";
-import {DiIntellij} from "react-icons/di";
-import react from '../react2.png';
-import postgres from '../postgresql.svg';
-import redux from '../react-redux.png';
-import rails from '../rails.png';
-import htmlco from '../html&co.png';
-import gitlab from '../gitlab.png';
-import gh from '../gh.png';
-import heroku from '../heroku.png';
-import aws from '../aws.png';
-import docker from '../docker.png';
+import React from 'react'
 
 const Hobbies = () => {
 
