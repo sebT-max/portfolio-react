@@ -167,9 +167,6 @@ code {
   padding:10px;
   text-align:center;
   color:white;
-  .title{
-    background: rgba(0, 0, 0, 0.125);
-  }
   @media(max-width:767px){
     width:80%;
   }
@@ -182,12 +179,7 @@ code {
   border:1px solid whitesmoke;
   border-radius:20px;
   text-align:center;
-  transform:translateY(-10px);
-}
-
-
-#projo-description {
-  padding:5px;
+  transform:translateY(-2px);
 }
 
 
@@ -289,15 +281,8 @@ color:white;
 }
 
 @media only screen and (min-width:1661px){
-  
-  .about{
-    margin:0 auto;
-    width:90%;
-    height:130px;
-  }
-  .about p {
-    font-size: 32px;
-  }
+
+
   .education{
     margin:0 auto;
     width:90%;
@@ -351,9 +336,6 @@ color:white;
   border-radius:100px;
   width: 200px;
 }
-.fixed {
-  display:none;
-}
 .about p {
   font-size: 28px;
 }
@@ -377,7 +359,6 @@ color:white;
   .app{
     display:flex;
     justify-content:space-around;
-    padding:20px 80px;
   }
   .sidebar{
     width:400px;
@@ -430,12 +411,6 @@ color:white;
     border-radius: 20px;
     margin-left:970px;
   }
-  #nav{
-    border-radius: 20px;
-    display:none;
-    justify-content:flex-start;
-
-  }
   
   .navbar .navbar-expand-lg{
     margin-left:200px;
@@ -460,7 +435,7 @@ color:white;
     width:45%;
   }
   #about_techno_h2{
-    margin-top:60px;
+    margin-top:0px;
   }
 }
 
@@ -471,9 +446,7 @@ color:white;
     justify-content:space-around;
     padding:0px 60px 120px 60px;
   }
-  .about p {
-    font-size: 20px;
-  }
+  
   .sidebar{
     width:320px;
     margin:0 auto;
@@ -484,11 +457,6 @@ color:white;
     width:30%;
     margin:10px;
     padding:20px;
-  }
-
-  #projo-description {
-    font-size: 18px;
-    color: white !important;
   }
 
   .navbar{
@@ -594,11 +562,6 @@ color:white;
     flex-wrap:wrap;
     justify-content: space-evenly;
   }
-  
-
-  #projo-description {
-    font-size:12px;
-  }
 
   .navbar{
     width:100%;
@@ -673,18 +636,12 @@ color:white;
   .app{
     display:block;
   }
-  .about{
-    margin:0 auto;
-    width:100%;
-  }
+  
   #about{
     padding:20px 20px 20px 20px;
     margin:0 auto;
   }
-  .about p {
-    font-size: 28px;
-    margin-bottom:80px;
-  }
+
   
   .custom-toggler{
     position:absolute;
@@ -736,42 +693,23 @@ color:white;
     text-align: center;
   }
 
-  #nav{
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0e0d0d 4px ), repeating-linear-gradient( #183d5d55, #183d5d );
-    padding:10px;
-    margin-top:36px;
-  }
-  
-  .nav-link{   
-    padding:20px;
-    color:lightblue;
-    height:90px;
+
+  .profile {
+    margin-top:150px;
   }
 
-.nav-link:hover{
-  background: linear-gradient(#ed1f1f,#271f6c);
-  border-radius: 10px;
-  color:lightblue;
-  height:90px;
-  box-shadow:0px 0px 10px rgba(0,0,0,0.1);
-}
-
-.profile {
-  margin-top:150px;
-}
-
-.sidebar.selfie  { 
-  opacity: 0.9;
-  background-size: 8px 14px;
-  background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
-  border-radius:20px;
-  margin-top:0px;
-  padding:30px;
-  transform:translate(0px,-70px);
-}
-.sidebar.selfie:hover { 
-  opacity: 1;
-}
+  .sidebar.selfie  { 
+    opacity: 0.9;
+    background-size: 8px 14px;
+    background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
+    border-radius:20px;
+    margin-top:0px;
+    padding:30px;
+    transform:translate(0px,-70px);
+  }
+  .sidebar.selfie:hover { 
+    opacity: 1;
+  }
 }
 
 
@@ -847,12 +785,6 @@ color:white;
       border-radius:100px;
       width: 200px;
     }
-  
-    #nav{
-      padding: 10px;
-      margin-top: 26px;
-      background: #0D0D11;
-    }
     
     .nav-link{  
       padding:20px;
@@ -913,11 +845,10 @@ color:white;
   background-repeat: no-repeat;
 }
 #reciplan_project{
-  background-image: url('assets/images/reciplan2_bg.png');
+  background-image: url('assets/images/reciplan_bg-1.png');
   background-size:cover;
   background-position:left;
   background-repeat: no-repeat;
-  height:400px;
 }
 #marvel_quizz_project{
   background: linear-gradient(179deg, #ed1f1f, #132230);
@@ -935,3 +866,152 @@ color:white;
   }
 } 
 
+.lightblue_border {
+  border:4px solid lightblue;
+  border-radius:4px;
+  padding:2px;
+  margin-right:2px;
+}
+.nav-item{
+  text-align: center;
+  color:white;
+   @media(max-width:991px){
+    border:3px solid transparent;
+    width:108px;
+    text-align:left;
+    padding:2px;
+    margin:0 auto;
+  }
+}
+.nav-item:hover{
+   @media(max-width:991px){
+    width:108px;
+    text-align:left;
+    padding:2px;
+  }
+}
+
+
+
+
+ #nav{
+    
+    @media only screen and (min-width:1444px) {
+      border-radius: 20px;
+    display:none;
+    justify-content:flex-start;
+    }
+
+    @media (max-width:991px) {
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0e0d0d 4px ), repeating-linear-gradient( #183d5d55, #183d5d );
+    padding:10px;
+    margin-top:36px;
+    }
+
+    @media only screen and (max-width:992px) {
+    padding: 10px;
+    margin-top: 26px;
+    background: #0D0D11;
+
+    }
+    
+  }
+.about{
+  @media only screen and (min-width:1395px) and (max-width:1660px) {
+  
+   p{
+     font-size: 20px;
+    }
+  }
+  @media only screen and (min-width:1661px){
+    margin:0 auto;
+    width:90%;
+    height:130px;
+    p{
+      font-size: 20px;
+    }
+  }
+    @media (max-width:991px) {
+      margin:0 auto;
+      width:100%;
+      p {
+      font-size: 28px;
+      margin-bottom:80px;
+      }
+      h1{
+        margin-top:60px;
+      }
+    }
+  }
+
+.nav-link{   
+  @media (max-width:991px) {
+  color:lightblue;
+  &:hover{
+    background: linear-gradient(#ed1f1f,#271f6c);
+    border-radius: 10px;
+    color:lightblue;
+    padding-left:4px;
+    width:110px;
+    }
+  }
+}
+
+
+
+  #projo-description{
+   
+    border:1px solid white;
+    padding:20px;
+    background:white;
+    color: black;
+    border-radius: 10px;
+    font-weight:900;
+    @media only screen and (min-width:1395px) and (max-width:1660px) {
+    
+    }
+    @media only screen and (min-width:1661px){
+      
+    }
+    @media (max-width:991px) {
+    
+    }
+  }
+
+  .fixed {
+    @media only screen and (min-width:1445px) and (max-width:1660px) {
+    display:none;
+    }
+    @media(min-width:1661px) {
+      position:fixed;
+      left:10px;
+      transition: transform 2s ease;
+    }
+  }
+
+  #resume{
+
+    background-color: rgba(0, 0, 0, 0.125);
+    border-radius:10px;
+    padding:20px;
+    color:whitesmoke;
+    @media(min-width:1661px) {
+      width:60%;
+    }
+    @media(max-width:767px) {
+      padding:0px;
+    }
+
+  }
+  .sidebar.selfie  { 
+    width:100%;
+    @media(min-width:1661px) {
+      width:100%;
+      transform: translate(0px, -100px);
+      transition: transform 0.5s ease;
+    }
+  }
+
+  #projects,#resume,#about{
+    backdrop-filter:blur(90px);
+  }

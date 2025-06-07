@@ -2,7 +2,7 @@ import React,{Fragment} from 'react';
 import jamming from '../assets/images/jamming.jpg';
 import quizmarvel from '../assets/images/quiz-marvel.png';
 import logoepi from '../assets/images/logoepi.png';
-import reciplan from '../assets/images/reciplan2.png';
+import reciplan from '../assets/images/reciplan_title.png';
 import acf from '../assets/images/acf.png';
 import Profile from './Profile';
 
@@ -30,9 +30,8 @@ const Projects = () => {
             
                             </div>
                             <div className="title py-4">
-                                <h4 className="project_title" id="acf_h4">Certified Driver Improvement Center in France</h4>
-                                <p></p>
-                                <span className="text-secondary" id="projo-description">Java/Angular</span>
+                                <h4 className="project_title">French Certified Driver Improvement Center</h4>
+                                <span id="projo-description">Java/Angular</span>
                             </div>  
                         </a>
                     </div>
@@ -46,15 +45,24 @@ const Projects = () => {
                                 </div>
                                 <div className="title py-4">
                                     <h4 className="project_title">Wine e-shop</h4>
-                                    <span className="text-secondary" id="projo-description">E-commerce for a wine business </span>
+                                    <span id="projo-description">Ruby on Rails </span>
                                 </div>
                             </a>
                         </div>
                 
-                      
-                        <a className="project" id="reciplan_project" href="https://reciplan-b1fc6.web.app/">
-                            
-                        </a>
+                        <div  className="project" id="reciplan_project">
+                            <a className="test-popup-link" href="https://reciplan-b1fc6.web.app/">
+                                <div className="img">
+                                    <div class="project-image" style={{height: 120,marginTop:30}}>
+                                        <img src={reciplan} style={{borderRadius:200,height:"auto",width:250}} alt="Brand-4"/>
+                                    </div>
+                                </div>
+                                <div className="title py-4">
+                                    <h4 className="project_title">Recipes list</h4>
+                                    <span id="projo-description">React/Redux</span>
+                                </div>
+                            </a>
+                        </div>
                     
                 
                         <div className="project" id="marvel_quizz_project">   
@@ -66,7 +74,7 @@ const Projects = () => {
                                 </div>
                                 <div className="title py-4">
                                     <h4 className="project_title">Quiz-Marvel</h4>
-                                    <span className="text-secondary" id="projo-description">A quizz for the marvel fans ! </span>
+                                    <span id="projo-description">React/Redux</span>
                                 </div>
                             </a>    
                         </div>

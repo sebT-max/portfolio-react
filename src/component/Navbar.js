@@ -24,29 +24,27 @@ function Navbar() {
       <div id="nav" className={`${isNavCollapsed ? 'collapse':''} navbar-collapse`}>
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-          <Link  onClick={handleNavCollapse} style ={{color:"lightblue"}} className={`${isNavCollapsed ? 'col':'link_sm'} nav-link`} to="/">
-          <div className={`${isNavCollapsed ? '':''} `}>
-              <span style ={{color:"lightblue",fontSize:"2.1em"}}>
-                <IoHome className={`${isNavCollapsed ? '':'lightblue_border'} `} />
-              </span> Home
-              </div>
-          </Link> 
+            <Link  onClick={handleNavCollapse} style ={{color:"lightblue"}} className={`${isNavCollapsed ? 'col':'link_sm'} nav-link`} to="/">
+                <span style ={{color:"lightblue",fontSize:"2.1em"}}>
+                  <IoHome className={`${isNavCollapsed ? '':'lightblue_border'} `} />
+                </span> Home
+            </Link> 
           </li>
 
           <li className="nav-item">
-          <Link  onClick={handleNavCollapse} style ={{color:"lightblue"}} className={`${isNavCollapsed ? 'col':''} nav-link`} to="/resume">
-                <span style ={{color:"lightblue",fontSize:"2.2em"}}>
-                <ImProfile />
-              </span> Resume
-          </Link> 
+            <Link  onClick={handleNavCollapse} style ={{color:"lightblue"}} className={`${isNavCollapsed ? 'col':''} nav-link`} to="/resume">
+                  <span style ={{color:"lightblue",fontSize:"2.2em"}}>
+                  <ImProfile />
+                </span> Resume
+            </Link> 
           </li>
           
           <li className="nav-item">
-          <Link  onClick={handleNavCollapse} style ={{color:"lightblue"}} className={`${isNavCollapsed ? 'col':''} nav-link`} to="/projects">
-                <span style ={{color:"lightblue",fontSize:"2.2em"}}>
-                <CgWebsite />
-              </span> Projects
-          </Link> 
+            <Link  onClick={handleNavCollapse} style ={{color:"lightblue"}} className={`${isNavCollapsed ? 'col':''} nav-link`} to="/projects">
+                  <span style ={{color:"lightblue",fontSize:"2.2em"}}>
+                  <CgWebsite />
+                </span> Projects
+            </Link> 
           </li>
         </ul>
       </div>

@@ -34,7 +34,7 @@ After a successful career shift, I bring a unique mix of technical skills and pe
 I build user-centric, reliable applications, and thrive at the intersection of development and real-world business needs.</p>
           </div>
             
-          <div style={{textAlign:"center",marginTop:60}} className='sidebar'>  
+          <div style={{textAlign:"center"}} className='sidebar'>  
             <h2 id="about_techno_h2" style={{textAlign:"center"}}>Technologies</h2>
             <br/>
             <div className="techno">
