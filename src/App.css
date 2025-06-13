@@ -63,9 +63,7 @@
 
 html,footer {
 background-color: #0e0d0d;
-opacity: 1;
-background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0e0d0d 4px ), repeating-linear-gradient( #183d5d55, #183d5d );
- 
+opacity: 1; 
 opacity: 1;
 color:whitesmoke;
 }
@@ -106,7 +104,6 @@ footer {
 .Home {
   background-color: #0e0d0d;
   opacity: 1;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0e0d0d 4px ), repeating-linear-gradient( #183d5d55, #183d5d );
   height:auto;
 }
 .btn-welcome {

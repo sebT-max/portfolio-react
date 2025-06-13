@@ -34,18 +34,18 @@ function Tabs(props) {
           
             <h3>Freelance Fullstack Web developer - Current job</h3> 
            
-            <div class="bg_white padding_10" id ="immopreneur_project_details">
+            <div className="bg_white padding_10" id ="immopreneur_project_details">
 
                 <div className='flex space-between wrap freelance'>
                     <div className="img">
                         <a className="test-popup-link" href="https://test-acf.netlify.app/" target="blank">
-                        <div class="project-image">
+                        <div className="project-image">
                             <img src={acf} style={{borderRadius:3,height: 150}} alt="Brand-4"/>
                         </div>
                         </a>
                     </div>
-                    <div class="container acf_container my-5">
-                        <h1 class="mb-4">Action Conduite France</h1>
+                    <div className="container acf_container my-5">
+                        <h1 className="mb-4">Action Conduite France</h1>
                         <p>
                             <strong>ACF</strong> is an accredited training center for driving license point recovery since 2012.
                             In the face of increasing competition, ACMF aimed to strengthen its online presence by launching a website that will:
@@ -59,18 +59,18 @@ function Tabs(props) {
                             <li>Implement marketing and analytics tracking tools.</li>
                         </ul>
 
-                        <h4 class="mt-4">Client Area</h4>
+                        <h4 className="mt-4">Client Area</h4>
                         <ul>
                             <li>Access history of past and upcoming sessions and documents</li>
                         </ul>
 
-                        <h4 class="mt-4">Professional Area (B2B Clients)</h4>
+                        <h4 className="mt-4">Professional Area (B2B Clients)</h4>
                         <ul>
                             <li>Quote request, invoice.</li>
                             <li>Provide a private link for employee registration.</li>
                         </ul>
 
-                        <h4 class="mt-4">Admin Interface</h4>
+                        <h4 className="mt-4">Admin Interface</h4>
                         Management of subscriptions, training sessions, invoices, quote requests, convocations, private links for employee registrations.
                     </div>
 
@@ -90,13 +90,13 @@ function Tabs(props) {
                 <div className='flex space-between wrap freelance'>
                     <div className="img">
                         <a className="test-popup-link" href="https://www.lesepicurieuxdebacchus.com" target="blank">
-                            <div class="project-image">
+                            <div className="project-image">
                                 <img src={logoepi} style={{borderRadius:200,height: 150,width:"auto"}} alt="Brand-4"/>
                             </div>
                         </a>
                     </div>
-                    <div class="container acf_container my-5">
-                        <h1 class="mb-4">Les Épicurieux de Bacchus</h1>
+                    <div className="container acf_container my-5">
+                        <h1 className="mb-4">Les Épicurieux de Bacchus</h1>
                         <p>
                             <strong>Les Épicurieux de Bacchus</strong> is a wine business located in Rhode-Saint-Genèse. Its mission is to
                             highlight the talent of small wine producers I had the chance to meet during my travels through France, Italy, and Spain.
@@ -110,7 +110,7 @@ function Tabs(props) {
                             and I frequently communicated with the Solidus team at Nebulab to resolve issues.
                         </p>
 
-                        <h4 class="mt-4">Wine Tasting Reservation System</h4>
+                        <h4 className="mt-4">Wine Tasting Reservation System</h4>
                         <p>
                             I also built a <strong>smart reservation system for wine tastings</strong>, designed to prevent opening too many bottles for too few participants—an all-too-common issue.
                             The system optimizes tastings based on the number of interested users and their common availability, ensuring both efficiency and conviviality.

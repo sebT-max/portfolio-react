@@ -8,7 +8,7 @@ const Resume = () => {
 
     useEffect(() => {
       function handleScroll() {
-        if (window.scrollY > 180) {
+        if (window.scrollY > 0) {
             console.log("scroll")
           setIsFixed(true);
         } else {
@@ -22,18 +22,20 @@ const Resume = () => {
       };
     }, []);
 
-    const profile = window.innerWidth < 1024 ? '': 
+    const profile = window.innerWidth < 1024 ? 
+    <div className= "profile" id="profile_resume">
+          <Profile/>
+   </div>
+    : 
   (<div className={`profile ${isFixed ? 'fixed' : ''}`}>
           <Profile/>
    </div>)
 
-
-   
     return (
         <>  
         <div className="app">
             {profile} 
-            <Tabs /> 
+            <Tabs/>
              
         </div> 
         </>   
