@@ -11,14 +11,14 @@ const Profile = () => {
 
     const downloadCV = () => {
         // using Java Script method to get PDF file
-        fetch('cv.pdf').then(response => {
+        fetch('CV-Sébastien_Ternest.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'cv.pdf';
+                alink.download = 'CV-Sébastien_Ternest';
                 alink.click();
             })
         })
