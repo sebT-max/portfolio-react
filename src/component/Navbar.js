@@ -26,7 +26,7 @@ function Navbar() {
           <li className="nav-item">
             <Link  onClick={handleNavCollapse} style ={{color:"lightblue"}} className={`${isNavCollapsed ? 'col':'link_sm'} nav-link`} to="/">
                 <span style ={{color:"lightblue",fontSize:"2.1em"}}>
-                  <IoHome className={`${isNavCollapsed ? '':'lightblue_border'} `} />
+                  <IoHome className="lightblue_border" />
                 </span> Home
             </Link> 
           </li>
