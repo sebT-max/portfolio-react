@@ -20,23 +20,22 @@ const About = () => {
     <> 
      
     <div className="app">
-      
-
         <div className="profile">
               <Profile/>
         </div>
 
         <div className="about" style={{color:'#FFF'}}>  
-        <div className="projects_and_about_main_title">
-              <h1 style={{color:'white',fontWeight:400}}> About me</h1>
-              <hr/>
-      </div>
-          <div style={{color:'grey'}}>
-              <p>Fullstack Web Developer (Ruby on Rails / Java & Angular) with a strong background in communication, event coordination, and digital marketing.
-After a successful career shift, I bring a unique mix of technical skills and people-focused experience.
-I build user-centric, reliable applications, and thrive at the intersection of development and real-world business needs.
-              </p>
-          </div>
+          <div className="projects_and_about_main_title">
+                <h1 style={{color:'white',fontWeight:400}}> About me</h1>
+                <hr/>
+        </div>
+        <div style={{color:'grey'}}>
+            <p>
+              I’m a Fullstack Web Developer specialized in Java/Angular and Ruby on Rails, with a solid background in communication, event coordination, and digital marketing.
+              After successfully retraining through an intensive bootcamp, I now build user-focused, reliable applications that solve real-world problems.
+              My previous experience helps me bridge the gap between technical development and business needs. I thrive in team environments, I’m quick to learn, and I’m actively looking for a developer position or freelance opportunities to grow with ambitious teams.
+            </p>
+        </div>
           <h2 id="about_techno_h2" style={{textAlign:"center"}}>Technologies</h2>
             <br/>
           <div className="techno">
